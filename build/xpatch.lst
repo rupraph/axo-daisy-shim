@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   42              		.loc 1 14 21 view .LVU4
   43              		.loc 1 14 19 is_stmt 0 view .LVU5
   44              		.thumb
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 2
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 2
 
 
   45              		.syntax unified
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   88 000a 7047     		bx	lr
   89              		.cfi_endproc
   90              	.LFE628:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 3
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 3
 
 
   92              		.section	.text._Z18PatchMidiInHandler13midi_device_thhhh,"ax",%progbits
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   44:xpatch.cpp    ****   public: // v1
   45:xpatch.cpp    ****   rootc *parent;
   46:xpatch.cpp    ****   public: void Init(rootc * _parent) {
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 4
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 4
 
 
   47:xpatch.cpp    **** parent = _parent;
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  101:xpatch.cpp    **** }
  102:xpatch.cpp    ****   public: void dsp (const int32buffer  inlet_in,
  103:xpatch.cpp    **** int32buffer  & outlet_out,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 5
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 5
 
 
  104:xpatch.cpp    **** int param_amp  ){
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  158:xpatch.cpp    **** KeyValuePair KVP_instanceFREEZE_b;
  159:xpatch.cpp    ****   public: void Init(rootc * _parent) {
  160:xpatch.cpp    **** parent = _parent;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 6
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 6
 
 
  161:xpatch.cpp    ****     parent->PExch[PARAM_INDEX_FREEZE_b].signals = 0;
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  215:xpatch.cpp    ****       if(index==128) {
  216:xpatch.cpp    ****          index=-1;
  217:xpatch.cpp    ****          break;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 7
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 7
 
 
  218:xpatch.cpp    ****       }
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  272:xpatch.cpp    **** }
  273:xpatch.cpp    ****    static PExModulationTarget_t * GetModulationTable(void) {
  274:xpatch.cpp    ****     static const PExModulationTarget_t PExModulationSources[NMODULATIONSOURCES][NMODULATIONTARGETS]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 8
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 8
 
 
  275:xpatch.cpp    **** {};
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  329:xpatch.cpp    **** //--------- <nets> -----------//
  330:xpatch.cpp    ****     int32buffer  net0;
  331:xpatch.cpp    ****     int32buffer  net1;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 9
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 9
 
 
  332:xpatch.cpp    ****     bool  net2;
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  386:xpatch.cpp    ****     }
  387:xpatch.cpp    ****   }
  388:xpatch.cpp    **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 10
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 10
 
 
  389:xpatch.cpp    **** 
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  404:xpatch.cpp    ****   {
  138              		.loc 2 404 3 view .LVU27
  139              	.LBB127:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 11
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 11
 
 
  405:xpatch.cpp    ****     funcpp_t fpp = &__dtor_array_start;
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  183              	.LFE697:
  185              		.section	.text._Z12PatchProcessPlS_,"ax",%progbits
  186              		.align	1
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 12
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 12
 
 
  187              		.p2align 2,,3
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  232              	.L182:
  233 0018 00000000 		.word	.LANCHOR1
  234 001c 00000000 		.word	.LANCHOR2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 13
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 13
 
 
  235 0020 00000000 		.word	.LANCHOR3
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  272 004e 03D0     		beq	.L160
  367:xpatch.cpp    ****              AudioInputLeft[i] = (AudioInputLeft[i] - (inbuf[i*2+1]>>4) ) >> 1;
  273              		.loc 2 367 8 view .LVU68
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 14
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 14
 
 
  368:xpatch.cpp    ****              AudioInputRight[i] = AudioInputLeft[i];             break;
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  343:xpatch.cpp    ****   instanceosc__1_i.dsp(net3, zerobuffer, zerobuffer, net1, PExch[PARAM_INDEX_osc__1_pitch].finalval
  309              		.loc 2 343 3 view .LVU88
  310              	.LBB186:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 15
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 15
 
 
  311              	.LBI186:
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   31:./src/axoloti_math.h **** #define LOGTSIZE 256
   32:./src/axoloti_math.h **** #define LOGTSIZEN 8
   33:./src/axoloti_math.h **** extern uint16_t logt[LOGTSIZE];
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 16
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 16
 
 
   34:./src/axoloti_math.h **** 
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   88:./src/axoloti_math.h ****     uint32_t result;
   89:./src/axoloti_math.h ****     __ASM volatile("udiv %0, %1, %2" : "=r"(result) : "r"(op1), "r"(op2));
   90:./src/axoloti_math.h ****     return result;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 17
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 17
 
 
   91:./src/axoloti_math.h **** }
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  330              		.loc 3 142 5 view .LVU97
  331              	.LBB194:
  332              		.loc 3 142 17 view .LVU98
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 18
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 18
 
 
  333              		.loc 3 142 17 view .LVU99
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  146:./src/axoloti_math.h ****     int32_t pf = (p & 0x1FFFFF) << 10;
  378              		.loc 3 146 13 is_stmt 0 view .LVU110
  379 0076 E64D     		ldr	r5, .L184+8
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 19
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 19
 
 
  143:./src/axoloti_math.h ****     uint32_t pi = p >> 21;
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  419              		.thumb
  420              		.syntax unified
  421              	.LBE198:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 20
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 20
 
 
  422              	.LBE199:
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  465              		.loc 2 76 48 is_stmt 1 view .LVU140
   78:xpatch.cpp    **** for(buffer_index=0;buffer_index<BUFSIZE;buffer_index++) {
  466              		.loc 2 78 1 view .LVU141
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 21
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 21
 
 
   79:xpatch.cpp    **** Phase += freq + inlet_freq[buffer_index];
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  499 00a8 DC48     		ldr	r0, .L184+20
  158:./src/axoloti_math.h ****     int32_t y1 = sine2t[pi];
  500              		.loc 3 158 14 view .LVU155
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 22
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 22
 
 
  501 00aa 4FEA155C 		lsr	ip, r5, #20
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  541              		.loc 3 69 56 view .LVU171
  542              	.LBB245:
   70:./src/axoloti_math.h ****     __ASM volatile("smmla %0, %1, %2, %3" : "=r"(result) : "r"(op1), "r"(op2), "r"(op3));
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 23
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 23
 
 
  543              		.loc 3 70 5 view .LVU172
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  585              		.loc 2 80 7 is_stmt 0 view .LVU185
  586 00ca 3544     		add	r5, r5, r6
  587              	.LVL39:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 24
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 24
 
 
   81:xpatch.cpp    **** int32_t p2 = Phase + (inlet_phase[buffer_index]<<4);
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  623              	@ 65 "./src/axoloti_math.h" 1
  624 00dc 53FB08F3 		smmul r3, r3, r8
  625              	@ 0 "" 2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 25
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 25
 
 
  626              	.LVL43:
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  668              	.LBE492:
  669              	.LBE847:
  670              	.LBE899:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 26
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 26
 
 
   79:xpatch.cpp    **** Phase += freq + inlet_freq[buffer_index];
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  707              		.loc 3 162 5 is_stmt 1 view .LVU236
  163:./src/axoloti_math.h ****     rr = ___SMMUL(y1, pfc);
  708              		.loc 3 163 5 view .LVU237
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 27
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 27
 
 
  164:./src/axoloti_math.h ****     rr = ___SMMLA(y2, pf, rr);
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  749 0108 50F82CC0 		ldr	ip, [r0, ip, lsl #2]
  750              	.LVL54:
   71:./src/axoloti_math.h ****     return result;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 28
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 28
 
 
  751              		.loc 3 71 5 view .LVU252
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  792              	.LBB299:
  793              	.LBB252:
   71:./src/axoloti_math.h ****     return result;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 29
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 29
 
 
  794              		.loc 3 71 5 is_stmt 0 view .LVU268
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  832              		.loc 3 66 5 is_stmt 0 view .LVU284
  833              		.thumb
  834              		.syntax unified
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 30
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 30
 
 
  835              	.LBE218:
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  877              	.LBB902:
  878              	.LBB850:
  879              	.LBB495:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 31
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 31
 
 
  880              	.LBB447:
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  915              	.LBB219:
   64:./src/axoloti_math.h ****     __ASM volatile("smmul %0, %1, %2" : "=r"(result) : "r"(op1), "r"(op2));
  916              		.loc 3 64 5 view .LVU318
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 32
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 32
 
 
   65:./src/axoloti_math.h ****     return result;
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  959              	.LVL72:
   72:./src/axoloti_math.h **** }
  960              		.loc 3 72 5 is_stmt 1 view .LVU331
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 33
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 33
 
 
   72:./src/axoloti_math.h **** }
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1001              	.LBE258:
  1002              	.LBE309:
  161:./src/axoloti_math.h ****     int32_t pfc = INT32_MAX - pf;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 34
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 34
 
 
  1003              		.loc 3 161 13 view .LVU348
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1041              		.loc 3 69 56 view .LVU364
  1042              	.LBB259:
   70:./src/axoloti_math.h ****     __ASM volatile("smmla %0, %1, %2, %3" : "=r"(result) : "r"(op1), "r"(op2), "r"(op3));
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 35
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 35
 
 
  1043              		.loc 3 70 5 view .LVU365
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1086 0180 3544     		add	r5, r5, r6
  1087              	.LVL81:
   81:xpatch.cpp    **** int32_t p2 = Phase + (inlet_phase[buffer_index]<<4);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 36
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 36
 
 
  1088              		.loc 2 81 1 is_stmt 1 view .LVU379
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1123 018e A4EB080E 		sub	lr, r4, r8
  1124              	.LVL84:
  1125              	.LBB316:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 37
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 37
 
 
  1126              	.LBB224:
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1169              	.LBE385:
   84:xpatch.cpp    **** 
  1170              		.loc 2 84 1 is_stmt 1 view .LVU412
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 38
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 38
 
 
  1171              	.LBE403:
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1209              		.loc 3 160 5 view .LVU428
  161:./src/axoloti_math.h ****     int32_t pfc = INT32_MAX - pf;
  1210              		.loc 3 161 5 view .LVU429
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 39
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 39
 
 
  162:./src/axoloti_math.h ****     int32_t rr;
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1250              	.LBB323:
  1251              	.LBB266:
   71:./src/axoloti_math.h ****     return result;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 40
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 40
 
 
  1252              		.loc 3 71 5 view .LVU445
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  157:./src/axoloti_math.h ****     uint32_t pi = p >> 20;
  1294              		.loc 3 157 5 view .LVU460
  158:./src/axoloti_math.h ****     int32_t y1 = sine2t[pi];
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 41
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 41
 
 
  1295              		.loc 3 158 5 view .LVU461
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   66:./src/axoloti_math.h **** }
  1334              		.loc 3 66 5 is_stmt 1 view .LVU477
   66:./src/axoloti_math.h **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 42
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 42
 
 
  1335              		.loc 3 66 5 is_stmt 0 view .LVU478
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1378              		.loc 2 79 1 view .LVU491
   79:xpatch.cpp    **** Phase += freq + inlet_freq[buffer_index];
  1379              		.loc 2 79 32 view .LVU492
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 43
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 43
 
 
  1380              	.LBB907:
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1416              	.LBB330:
   63:./src/axoloti_math.h ****     int32_t result;
  1417              		.loc 3 63 56 view .LVU511
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 44
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 44
 
 
  1418              	.LBB229:
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1459              	@ 71 "./src/axoloti_math.h" 1
  1460 0214 5CFB0855 		smmla r5, ip, r8, r5
  1461              	@ 0 "" 2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 45
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 45
 
 
  1462              	.LVL111:
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1502              	.LVL113:
   71:./src/axoloti_math.h ****     return result;
  1503              		.loc 3 71 5 view .LVU541
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 46
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 46
 
 
  1504              	.LBE273:
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  165:./src/axoloti_math.h ****     return rr << 1;
  1543              		.loc 3 165 5 is_stmt 1 view .LVU557
  1544              	.LBB337:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 47
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 47
 
 
   69:./src/axoloti_math.h ****     int32_t result;
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   80:xpatch.cpp    **** int32_t r;
  1588              		.loc 2 80 1 view .LVU571
   80:xpatch.cpp    **** int32_t r;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 48
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 48
 
 
  1589              		.loc 2 80 7 is_stmt 0 view .LVU572
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1624              		.loc 3 65 5 view .LVU591
  1625 0248 50F82C50 		ldr	r5, [r0, ip, lsl #2]
  1626              	.LBE233:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 49
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 49
 
 
  1627              	.LBE340:
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1669              	.LBE278:
  1670              	.LBE343:
  1671              		.loc 3 166 5 is_stmt 1 view .LVU604
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 50
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 50
 
 
  1672              		.loc 3 166 5 is_stmt 0 view .LVU605
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1709              		.loc 3 162 5 is_stmt 1 view .LVU622
  163:./src/axoloti_math.h ****     rr = ___SMMUL(y1, pfc);
  1710              		.loc 3 163 5 view .LVU623
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 51
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 51
 
 
  164:./src/axoloti_math.h ****     rr = ___SMMLA(y2, pf, rr);
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1751 027a 50F82CC0 		ldr	ip, [r0, ip, lsl #2]
  1752              	.LVL135:
   71:./src/axoloti_math.h ****     return result;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 52
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 52
 
 
  1753              		.loc 3 71 5 view .LVU638
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1794              	.LBB348:
  1795              	.LBB281:
   71:./src/axoloti_math.h ****     return result;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 53
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 53
 
 
  1796              		.loc 3 71 5 is_stmt 0 view .LVU654
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1834              		.thumb
  1835              		.syntax unified
  1836              	.LBE238:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 54
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 54
 
 
  1837              	.LBE350:
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1879              	.LBB860:
  1880              	.LBB505:
  1881              	.LBB457:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 55
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 55
 
 
  1882              	.LBB411:
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1916 02b6 A4EB0A0E 		sub	lr, r4, r10
  1917              	.LVL148:
  1918              	.LBB354:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 56
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 56
 
 
  1919              	.LBB240:
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1961              		.loc 3 166 5 is_stmt 0 view .LVU718
  1962              	.LBE376:
  1963              	.LBE393:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 57
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 57
 
 
   84:xpatch.cpp    **** 
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  1999              		.loc 3 164 5 view .LVU737
  2000              	.LBB357:
   63:./src/axoloti_math.h ****     int32_t result;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 58
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 58
 
 
  2001              		.loc 3 63 56 view .LVU738
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2043              	@ 0 "" 2
  2044              	.LVL158:
   72:./src/axoloti_math.h **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 59
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 59
 
 
  2045              		.loc 3 72 5 is_stmt 1 view .LVU751
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2088              	.LBB511:
   64:./src/axoloti_math.h ****     __ASM volatile("smmul %0, %1, %2" : "=r"(result) : "r"(op1), "r"(op2));
  2089              		.loc 3 64 5 view .LVU765
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 60
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 60
 
 
   65:./src/axoloti_math.h ****     return result;
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2136              		.loc 2 84 30 view .LVU773
  2137 02f8 0199     		ldr	r1, [sp, #4]
  2138              	.LBE415:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 61
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 61
 
 
  2139              	.LBE461:
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  107:xpatch.cpp    **** 
  2182              		.loc 2 107 69 view .LVU785
  2183 0304 6400     		lsls	r4, r4, #1
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 62
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 62
 
 
  2184              	.LBE560:
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2228              	.LVL166:
   66:./src/axoloti_math.h **** }
  2229              		.loc 3 66 5 is_stmt 1 view .LVU796
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 63
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 63
 
 
   66:./src/axoloti_math.h **** }
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2273              	.LBB564:
  2274              	.LBB541:
  2275              	.LBB518:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 64
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 64
 
 
   65:./src/axoloti_math.h ****     return result;
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2318              	.LBB468:
  2319              	.LBB422:
   84:xpatch.cpp    **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 65
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 65
 
 
  2320              		.loc 2 84 30 is_stmt 0 view .LVU820
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2367              	.LBB607:
  2368              	.LBB568:
  107:xpatch.cpp    **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 66
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 66
 
 
  2369              		.loc 2 107 25 view .LVU828
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  107:xpatch.cpp    **** 
  2410              		.loc 2 107 1 view .LVU842
  2411              	.LBB545:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 67
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 67
 
 
   63:./src/axoloti_math.h ****     int32_t result;
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2457              	.LBB571:
  107:xpatch.cpp    **** 
  2458              		.loc 2 107 25 view .LVU852
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 68
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 68
 
 
  2459 0356 CDF850E0 		str	lr, [sp, #80]
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2502              	.LBB475:
  2503              	.LBB429:
   84:xpatch.cpp    **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 69
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 69
 
 
  2504              		.loc 2 84 30 view .LVU864
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  107:xpatch.cpp    **** 
  2547              		.loc 2 107 69 view .LVU876
  2548 0374 4FEA4808 		lsl	r8, r8, #1
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 70
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 70
 
 
  2549              	.LBE574:
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2592              		.loc 3 66 5 view .LVU887
   66:./src/axoloti_math.h **** }
  2593              		.loc 3 66 5 is_stmt 0 view .LVU888
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 71
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 71
 
 
  2594              		.thumb
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2637              		.syntax unified
  2638              	@ 65 "./src/axoloti_math.h" 1
  2639 0396 53FB08F8 		smmul r8, r3, r8
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 72
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 72
 
 
  2640              	@ 0 "" 2
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2681              		.loc 3 66 5 is_stmt 0 view .LVU912
  2682              		.thumb
  2683              		.syntax unified
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 73
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 73
 
 
  2684              	.LBE529:
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2727              	@ 65 "./src/axoloti_math.h" 1
  2728 03bc 53FB08F8 		smmul r8, r3, r8
  2729              	@ 0 "" 2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 74
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 74
 
 
  2730              	.LVL186:
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2771              	.LBE531:
  2772              	.LBE554:
  107:xpatch.cpp    **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 75
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 75
 
 
  2773              		.loc 2 107 69 view .LVU937
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   84:xpatch.cpp    **** 
  2816              		.loc 2 84 30 view .LVU949
  2817 03e4 0D99     		ldr	r1, [sp, #52]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 76
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 76
 
 
  2818              	.LBE440:
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2860              		.thumb
  2861              		.syntax unified
  2862              	.LBE534:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 77
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 77
 
 
  2863              	.LBE557:
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2905              	.LBB661:
  127:xpatch.cpp    **** }
  2906              		.loc 2 127 4 view .LVU974
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 78
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 78
 
 
  2907              	.LBB646:
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2952 0428 05F31B0B 		ssat fp, #28, r5
  2953              	@ 0 "" 2
  2954              	.LVL199:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 79
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 79
 
 
  127:xpatch.cpp    **** }
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  2998              	.LBB918:
  2999              	.LBB866:
  3000              	.LBB695:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 80
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 80
 
 
  3001              	.LBB679:
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  127:xpatch.cpp    **** }
  3044              		.loc 2 127 23 is_stmt 0 view .LVU1006
  3045 0446 C1F814B0 		str	fp, [r1, #20]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 81
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 81
 
 
  3046              	.LBE665:
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  127:xpatch.cpp    **** }
  3090              		.loc 2 127 26 view .LVU1017
  127:xpatch.cpp    **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 82
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 82
 
 
  3091              		.loc 2 127 26 view .LVU1018
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  127:xpatch.cpp    **** }
  3135              		.loc 2 127 23 view .LVU1029
  3136 0464 C1F820B0 		str	fp, [r1, #32]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 83
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 83
 
 
  3137              	.LBE668:
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  127:xpatch.cpp    **** }
  3181              		.loc 2 127 4 view .LVU1040
  3182              	.LBB655:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 84
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 84
 
 
  127:xpatch.cpp    **** }
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3225              		.loc 2 127 23 is_stmt 0 view .LVU1052
  3226 0480 C1F82CB0 		str	fp, [r1, #44]
  3227              	.LBE671:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 85
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 85
 
 
  3228              	.LBE686:
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  127:xpatch.cpp    **** }
  3271              		.loc 2 127 26 view .LVU1064
  3272              		.syntax unified
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 86
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 86
 
 
  3273              	@ 127 "xpatch.cpp" 1
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3317              	.LVL228:
  126:xpatch.cpp    ****    AudioOutputLeft[j] += __SSAT(inlet_wave[j],28);
  3318              		.loc 2 126 10 view .LVU1075
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 87
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 87
 
 
  3319              	.LBB929:
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3361              		.loc 2 144 16 view .LVU1087
  144:xpatch.cpp    **** int32_t & disp_vu  ){
  3362              		.loc 2 144 16 is_stmt 0 view .LVU1088
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 88
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 88
 
 
  3363              	.LBE708:
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3406              	@ 148 "xpatch.cpp" 1
  3407 04b0 04F31B0B 		ssat fp, #28, r4
  3408              	@ 0 "" 2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 89
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 89
 
 
  3409              	.LVL234:
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3452              	.LBB934:
  3453              	.LBB882:
  3454              	.LBB762:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 90
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 90
 
 
  3455              	.LBB744:
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3498              	.LBE715:
  148:xpatch.cpp    **** }
  3499              		.loc 2 148 24 is_stmt 0 view .LVU1122
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 91
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 91
 
 
  3500 04ce C1F810B0 		str	fp, [r1, #16]
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  148:xpatch.cpp    **** }
  3544              		.loc 2 148 27 view .LVU1133
  148:xpatch.cpp    **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 92
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 92
 
 
  3545              		.loc 2 148 27 view .LVU1134
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3590              	.LBE886:
  3591              	.LBE938:
  147:xpatch.cpp    ****    AudioOutputRight[j] += __SSAT(inlet_wave[j],28);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 93
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 93
 
 
  3592              		.loc 2 147 1 is_stmt 1 view .LVU1144
@@ -5578,7 +5578,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3635 04f8 07F31B0B 		ssat fp, #28, r7
  3636              	@ 0 "" 2
  3637              	.LVL250:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 94
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 94
 
 
  148:xpatch.cpp    **** }
@@ -5638,7 +5638,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3681              		.loc 2 147 10 view .LVU1166
  3682              	.LBB942:
  3683              	.LBB890:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 95
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 95
 
 
  3684              	.LBB770:
@@ -5698,7 +5698,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3727              	.LBE723:
  148:xpatch.cpp    **** }
  3728              		.loc 2 148 24 is_stmt 0 view .LVU1178
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 96
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 96
 
 
  3729 0518 C1F830B0 		str	fp, [r1, #48]
@@ -5758,7 +5758,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  148:xpatch.cpp    **** }
  3773              		.loc 2 148 27 view .LVU1189
  148:xpatch.cpp    **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 97
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 97
 
 
  3774              		.loc 2 148 27 view .LVU1190
@@ -5818,7 +5818,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  147:xpatch.cpp    ****    AudioOutputRight[j] += __SSAT(inlet_wave[j],28);
  3819              		.loc 2 147 1 is_stmt 1 view .LVU1200
  3820              	.LVL263:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 98
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 98
 
 
  147:xpatch.cpp    ****    AudioOutputRight[j] += __SSAT(inlet_wave[j],28);
@@ -5878,7 +5878,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3863              	.LBE837:
  3864              	.LBE842:
  348:xpatch.cpp    ****   instancescope__128s__trig1_i.dsp(net0, net2, (int8_t *)(&displayVector[5]));
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 99
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 99
 
 
  3865              		.loc 2 348 58 is_stmt 0 view .LVU1213
@@ -5938,7 +5938,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3903              		.loc 2 219 39 view .LVU1229
  3904 0560 6415     		asrs	r4, r4, #21
  215:xpatch.cpp    ****          index=-1;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 100
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 100
 
 
  3905              		.loc 2 215 7 view .LVU1230
@@ -5998,7 +5998,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3939              		.loc 2 215 7 view .LVU1250
  3940 0586 7C29     		cmp	r1, #124
  219:xpatch.cpp    ****    }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 101
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 101
 
 
  3941              		.loc 2 219 18 view .LVU1251
@@ -6058,7 +6058,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  3975              		.loc 2 215 7 view .LVU1271
  3976 05b0 7A29     		cmp	r1, #122
  219:xpatch.cpp    ****    }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 102
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 102
 
 
  3977              		.loc 2 219 18 view .LVU1272
@@ -6118,7 +6118,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4011              		.loc 2 219 39 view .LVU1292
  4012 05d6 4FEA6454 		asr	r4, r4, #21
  219:xpatch.cpp    ****    }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 103
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 103
 
 
  4013              		.loc 2 219 18 view .LVU1293
@@ -6178,7 +6178,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4047              		.loc 2 215 7 view .LVU1313
  4048 05fc 7629     		cmp	r1, #118
  219:xpatch.cpp    ****    }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 104
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 104
 
 
  4049              		.loc 2 219 39 view .LVU1314
@@ -6238,7 +6238,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4083              		.loc 2 219 17 view .LVU1334
  4084 0622 1044     		add	r0, r0, r2
  215:xpatch.cpp    ****          index=-1;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 105
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 105
 
 
  4085              		.loc 2 215 7 view .LVU1335
@@ -6298,7 +6298,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4119              		.loc 2 219 39 view .LVU1355
  4120 0648 4FEA6959 		asr	r9, r9, #21
  215:xpatch.cpp    ****          index=-1;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 106
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 106
 
 
  4121              		.loc 2 215 7 view .LVU1356
@@ -6358,7 +6358,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4155              		.loc 2 219 14 view .LVU1376
  4156 066e 1031     		adds	r1, r1, #16
  219:xpatch.cpp    ****    }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 107
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 107
 
 
  4157              		.loc 2 219 18 view .LVU1377
@@ -6418,7 +6418,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4199              		.loc 2 383 7 is_stmt 1 view .LVU1389
  384:xpatch.cpp    ****         outbuf[i*2+1] = __SSAT(AudioOutputRight[i],28)<<4;
  4200              		.loc 2 384 7 view .LVU1390
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 108
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 108
 
 
  385:xpatch.cpp    ****     }
@@ -6478,7 +6478,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4244              	.LBB960:
  377:xpatch.cpp    ****     switch (AudioOutputMode) {
  4245              		.loc 2 377 19 view .LVU1402
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 109
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 109
 
 
  377:xpatch.cpp    ****     switch (AudioOutputMode) {
@@ -6538,7 +6538,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4288 06c2 41F8043C 		str	r3, [r1, #-4]
  380:xpatch.cpp    ****       case A_BALANCED:
  4289              		.loc 2 380 28 is_stmt 1 view .LVU1415
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 110
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 110
 
 
  4290              	.LBE958:
@@ -6598,7 +6598,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  223:xpatch.cpp    ****      pval = (inlet_in[BUFSIZE-1])>(1<<19);
  4334              		.loc 2 223 8 is_stmt 1 view .LVU1426
  223:xpatch.cpp    ****      pval = (inlet_in[BUFSIZE-1])>(1<<19);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 111
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 111
 
 
  4335              		.loc 2 223 21 is_stmt 0 view .LVU1427
@@ -6658,7 +6658,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4375              		.loc 2 202 4 view .LVU1441
  4376              	.LVL300:
  202:xpatch.cpp    ****       int32_t val = (inlet_in[i])>(1<<19);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 112
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 112
 
 
  4377              		.loc 2 202 13 view .LVU1442
@@ -6718,7 +6718,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  207:xpatch.cpp    ****    }
  4414              		.loc 2 207 7 view .LVU1460
  4415              	.LBE786:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 113
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 113
 
 
  202:xpatch.cpp    ****       int32_t val = (inlet_in[i])>(1<<19);
@@ -6778,7 +6778,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4452              		.loc 2 203 7 view .LVU1478
  204:xpatch.cpp    ****          index=0; break;
  4453              		.loc 2 204 7 view .LVU1479
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 114
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 114
 
 
  4454 0736 049F     		ldr	r7, [sp, #16]
@@ -6838,7 +6838,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4491              		.loc 2 202 4 view .LVU1496
  4492              	.LVL311:
  202:xpatch.cpp    ****       int32_t val = (inlet_in[i])>(1<<19);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 115
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 115
 
 
  4493              		.loc 2 202 13 view .LVU1497
@@ -6898,7 +6898,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4536              	.LBE828:
  4537              	.LBE830:
  4538              	.LBE833:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 116
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 116
 
 
  4539              	.LBB834:
@@ -6958,7 +6958,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4577              	.LBE799:
  202:xpatch.cpp    ****       int32_t val = (inlet_in[i])>(1<<19);
  4578              		.loc 2 202 4 view .LVU1525
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 117
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 117
 
 
  202:xpatch.cpp    ****       int32_t val = (inlet_in[i])>(1<<19);
@@ -7018,7 +7018,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  204:xpatch.cpp    ****          index=0; break;
  4616              		.loc 2 204 7 view .LVU1543
  4617 07ae 0299     		ldr	r1, [sp, #8]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 118
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 118
 
 
  4618 07b0 B1F5002F 		cmp	r1, #524288
@@ -7078,7 +7078,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4657              	.L30:
  207:xpatch.cpp    ****    }
  4658              		.loc 2 207 7 view .LVU1559
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 119
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 119
 
 
  4659              	.LBE806:
@@ -7138,7 +7138,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4696              	.LBB810:
  203:xpatch.cpp    ****       if (val&&(!pval)){
  4697              		.loc 2 203 7 view .LVU1577
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 120
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 120
 
 
  204:xpatch.cpp    ****          index=0; break;
@@ -7198,7 +7198,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4740              	.LBE815:
  209:xpatch.cpp    ****       for(;i<16;i++){
  4741              		.loc 2 209 4 view .LVU1590
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 121
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 121
 
 
  210:xpatch.cpp    ****          t[index++]=(uint8_t)(inlet_in[i]>>21);
@@ -7258,7 +7258,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4776 0826 0E2C     		cmp	r4, #14
  211:xpatch.cpp    ****       }
  4777              		.loc 2 211 42 view .LVU1611
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 122
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 122
 
 
  4778 0828 4FEA6050 		asr	r0, r0, #21
@@ -7318,7 +7318,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4812              		.loc 2 210 13 view .LVU1631
  4813 0850 56D0     		beq	.L36
  211:xpatch.cpp    ****       }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 123
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 123
 
 
  4814              		.loc 2 211 10 view .LVU1632
@@ -7378,7 +7378,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  211:xpatch.cpp    ****       }
  4849              		.loc 2 211 21 view .LVU1652
  4850 087c 82F8DB01 		strb	r0, [r2, #475]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 124
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 124
 
 
  210:xpatch.cpp    ****          t[index++]=(uint8_t)(inlet_in[i]>>21);
@@ -7438,7 +7438,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  211:xpatch.cpp    ****       }
  4885              		.loc 2 211 42 is_stmt 0 view .LVU1673
  4886 08a2 53F8180C 		ldr	r0, [r3, #-24]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 125
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 125
 
 
  210:xpatch.cpp    ****          t[index++]=(uint8_t)(inlet_in[i]>>21);
@@ -7498,7 +7498,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4921              		.loc 2 210 7 is_stmt 1 view .LVU1693
  4922              	.LVL344:
  210:xpatch.cpp    ****          t[index++]=(uint8_t)(inlet_in[i]>>21);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 126
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 126
 
 
  4923              		.loc 2 210 7 view .LVU1694
@@ -7558,7 +7558,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  211:xpatch.cpp    ****       }
  4958              		.loc 2 211 42 is_stmt 0 view .LVU1714
  4959 08f6 53F8043C 		ldr	r3, [r3, #-4]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 127
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 127
 
 
  4960 08fa 5B15     		asrs	r3, r3, #21
@@ -7618,7 +7618,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  4999              		.loc 2 210 7 view .LVU1729
  210:xpatch.cpp    ****          t[index++]=(uint8_t)(inlet_in[i]>>21);
  5000              		.loc 2 210 13 view .LVU1730
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 128
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 128
 
 
  211:xpatch.cpp    ****       }
@@ -7678,7 +7678,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  202:xpatch.cpp    ****       int32_t val = (inlet_in[i])>(1<<19);
  5043              		.loc 2 202 4 view .LVU1743
  5044 0944 0D21     		movs	r1, #13
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 129
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 129
 
 
  5045 0946 E1E7     		b	.L49
@@ -7738,7 +7738,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  202:xpatch.cpp    ****       int32_t val = (inlet_in[i])>(1<<19);
  5088              		.loc 2 202 4 view .LVU1755
  5089 0960 0F21     		movs	r1, #15
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 130
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 130
 
 
  5090 0962 D3E7     		b	.L49
@@ -7798,7 +7798,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5135 000c 013A     		subs	r2, r2, #1
  5136              		.loc 2 420 9 view .LVU1761
  5137 000e 0B46     		mov	r3, r1
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 131
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 131
 
 
  5138 0010 521A     		subs	r2, r2, r1
@@ -7858,7 +7858,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5181              		.loc 2 428 22 is_stmt 0 view .LVU1776
  5182 0036 364F     		ldr	r7, .L202+16
  5183 0038 0026     		movs	r6, #0
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 132
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 132
 
 
  429:xpatch.cpp    ****   patchMeta.npreset_entries = 0;
@@ -7918,7 +7918,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  433:xpatch.cpp    ****   patchMeta.patchID = -775857493;
  5217              		.loc 2 433 3 is_stmt 1 view .LVU1794
  434:xpatch.cpp    ****   extern char _sdram_dyn_start;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 133
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 133
 
 
  5218              		.loc 2 434 3 view .LVU1795
@@ -7978,7 +7978,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5256 006a 2661     		str	r6, [r4, #16]
  5257 006c 6662     		str	r6, [r4, #36]
  5258 006e A663     		str	r6, [r4, #56]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 134
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 134
 
 
  288:xpatch.cpp    ****    }
@@ -8038,7 +8038,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5302 0090 C4F88041 		str	r4, [r4, #384]
  5303              	.LBE1018:
  5304              	.LBE1017:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 135
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 135
 
 
  5305              	.LBB1021:
@@ -8098,7 +8098,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  294:xpatch.cpp    ****      displayVector[1] = 0;
  5337              		.loc 2 294 6 view .LVU1847
  294:xpatch.cpp    ****      displayVector[1] = 0;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 136
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 136
 
 
  5338              		.loc 2 294 23 is_stmt 0 view .LVU1848
@@ -8158,7 +8158,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
    3:./src/ui_stubs.h ****  *
    4:./src/ui_stubs.h ****  * Stubs for KeyValuePair (KVP) system. On real Axoloti hardware,
    5:./src/ui_stubs.h ****  * KVPs provide a UI display/control system. On Daisy these are no-ops.
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 137
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 137
 
 
    6:./src/ui_stubs.h ****  */
@@ -8218,7 +8218,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   42:./src/ui_stubs.h ****                                 int length,
   43:./src/ui_stubs.h ****                                 struct KeyValuePair *array) {
   44:./src/ui_stubs.h ****     (void)kvp; (void)parent; (void)keyName; (void)length; (void)array;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 138
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 138
 
 
   45:./src/ui_stubs.h **** }
@@ -8278,7 +8278,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5417 00c0 2362     		str	r3, [r4, #32]
   97:xpatch.cpp    ****   KVP_RegisterObject(&KVP_instance_star_c__1_amp);
  5418              		.loc 2 97 3 is_stmt 1 view .LVU1881
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 139
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 139
 
 
  5419              	.LVL386:
@@ -8338,7 +8338,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5457              		.loc 2 137 16 view .LVU1898
  5458              	.LBB1016:
  139:xpatch.cpp    **** disp_vu = 0;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 140
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 140
 
 
  5459              		.loc 2 139 1 view .LVU1899
@@ -8398,7 +8398,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5496              		.loc 2 303 4 view .LVU1917
  5497              	.LBB1033:
  5498              	.LBI992:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 141
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 141
 
 
  181:xpatch.cpp    **** int8_t * disp_scope) {
@@ -8458,7 +8458,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5534 00d8 2846     		mov	r0, r5
  305:xpatch.cpp    ****           (PExch[k].pfunction)(&PExch[k]);
  5535              		.loc 2 305 9 view .LVU1937
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 142
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 142
 
 
  5536 00da 6BB1     		cbz	r3, .L195
@@ -8518,7 +8518,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5575              		.loc 2 308 11 is_stmt 1 view .LVU1954
  308:xpatch.cpp    ****         }
  5576              		.loc 2 308 31 is_stmt 0 view .LVU1955
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 143
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 143
 
 
  5577 00f8 2B68     		ldr	r3, [r5]
@@ -8578,7 +8578,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  255:xpatch.cpp    ****      int32_t *p = GetInitParams();
  5629              		.loc 2 255 4 is_stmt 0 view .LVU1960
  5630 0002 B8B9     		cbnz	r0, .L210
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 144
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 144
 
 
  5631              	.LBE1061:
@@ -8638,7 +8638,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
   32:./src/parameters.h ****     int32_t value;
   33:./src/parameters.h **** } PresetParamChange_t;
   34:./src/parameters.h **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 145
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 145
 
 
   35:./src/parameters.h **** typedef struct {
@@ -8698,7 +8698,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5669              		.loc 5 64 5 is_stmt 1 view .LVU1970
  5670 001a 62B1     		cbz	r2, .L206
  5671              		.loc 5 65 25 is_stmt 0 view .LVU1971
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 146
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 146
 
 
  5672 001c 9047     		blx	r2
@@ -8758,7 +8758,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5717              	.LBB1075:
  5718              	.LBB1074:
  5719              	.LBB1072:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 147
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 147
 
 
  5720              	.LBB1068:
@@ -8818,7 +8818,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5769              	.LVL404:
  5770              	.LFB663:
    7:xpatch.cpp    ****   xpatch_init2(fwid);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 148
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 148
 
 
  5771              		.loc 2 7 74 is_stmt 1 view -0
@@ -8878,7 +8878,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5820 0006 FFF7FEBF 		b	_Z12xpatch_init2i.part.0
  5821              	.LVL407:
  5822              	.L219:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 149
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 149
 
 
  5823              		.loc 2 443 1 is_stmt 0 view .LVU2000
@@ -8938,7 +8938,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5879      00000000 
  5879      00000000 
  5880              		.section	.bss.AudioOutputMode,"aw",%nobits
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 150
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 150
 
 
  5881              		.set	.LANCHOR6,. + 0
@@ -8982,57 +8982,57 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 1
  5917              		.file 21 "./src/axoloti_compat.h"
  5918              		.file 22 "<built-in>"
  5919              		.file 23 "./src/axoloti_memory.h"
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 151
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 151
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 xpatch.cpp
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:17     .text.pfun_signed_clamp:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:23     .text.pfun_signed_clamp:0000000000000000 pfun_signed_clamp
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:54     .text.pfun_unsigned_clamp_fullrange:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:60     .text.pfun_unsigned_clamp_fullrange:0000000000000000 pfun_unsigned_clamp_fullrange
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:93     .text._Z18PatchMidiInHandler13midi_device_thhhh:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:100    .text._Z18PatchMidiInHandler13midi_device_thhhh:0000000000000000 _Z18PatchMidiInHandler13midi_device_thhhh
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:116    .text._Z12PatchDisposev:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:123    .text._Z12PatchDisposev:0000000000000000 _Z12PatchDisposev
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:180    .text._Z12PatchDisposev:0000000000000018 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:186    .text._Z12PatchProcessPlS_:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:193    .text._Z12PatchProcessPlS_:0000000000000000 _Z12PatchProcessPlS_
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:233    .text._Z12PatchProcessPlS_:0000000000000018 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:239    .text._Z12PatchProcessPlS_:0000000000000024 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:2920   .text._Z12PatchProcessPlS_:0000000000000408 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:2932   .text._Z12PatchProcessPlS_:0000000000000424 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:4529   .text._Z12PatchProcessPlS_:000000000000076c $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:4550   .text._Z12PatchProcessPlS_:000000000000077c $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5107   .text._Z12xpatch_init2i.part.0:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5113   .text._Z12xpatch_init2i.part.0:0000000000000000 _Z12xpatch_init2i.part.0
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5583   .text._Z12xpatch_init2i.part.0:0000000000000100 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5837   .rodata._ZZN5rootc10GetPresetsEvE1p:0000000000000000 _ZZN5rootc10GetPresetsEvE1p
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5612   .text._Z11ApplyPresetl:0000000000000000 _Z11ApplyPresetl
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5605   .text._Z11ApplyPresetl:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5755   .text._Z11ApplyPresetl:0000000000000050 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5843   .rodata._ZZN5rootc13GetInitParamsEvE1p:0000000000000000 _ZZN5rootc13GetInitParamsEvE1p
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5761   .boot:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5768   .boot:0000000000000000 xpatch_init
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5796   .boot:000000000000000c $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5801   .text._Z12xpatch_init2i:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5808   .text._Z12xpatch_init2i:0000000000000000 _Z12xpatch_init2i
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5828   .text._Z12xpatch_init2i:000000000000000c $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5840   .rodata._ZZN5rootc13GetInitParamsEvE1p:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5864   .bss.AudioInputMode:0000000000000000 AudioInputMode
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5884   .bss.AudioOutputMode:0000000000000000 AudioOutputMode
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5891   .bss.AudioOutputRight:0000000000000000 AudioOutputRight
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5878   .bss.AudioOutputLeft:0000000000000000 AudioOutputLeft
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5871   .bss.AudioInputRight:0000000000000000 AudioInputRight
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5858   .bss.AudioInputLeft:0000000000000000 AudioInputLeft
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5854   .bss.AudioInputLeft:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5865   .bss.AudioInputMode:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5867   .bss.AudioInputRight:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5874   .bss.AudioOutputLeft:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5885   .bss.AudioOutputMode:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5887   .bss.AudioOutputRight:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5894   .bss._ZL4root:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s:5898   .bss._ZL4root:0000000000000000 _ZL4root
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:17     .text.pfun_signed_clamp:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:23     .text.pfun_signed_clamp:0000000000000000 pfun_signed_clamp
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:54     .text.pfun_unsigned_clamp_fullrange:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:60     .text.pfun_unsigned_clamp_fullrange:0000000000000000 pfun_unsigned_clamp_fullrange
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:93     .text._Z18PatchMidiInHandler13midi_device_thhhh:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:100    .text._Z18PatchMidiInHandler13midi_device_thhhh:0000000000000000 _Z18PatchMidiInHandler13midi_device_thhhh
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:116    .text._Z12PatchDisposev:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:123    .text._Z12PatchDisposev:0000000000000000 _Z12PatchDisposev
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:180    .text._Z12PatchDisposev:0000000000000018 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:186    .text._Z12PatchProcessPlS_:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:193    .text._Z12PatchProcessPlS_:0000000000000000 _Z12PatchProcessPlS_
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:233    .text._Z12PatchProcessPlS_:0000000000000018 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:239    .text._Z12PatchProcessPlS_:0000000000000024 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:2920   .text._Z12PatchProcessPlS_:0000000000000408 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:2932   .text._Z12PatchProcessPlS_:0000000000000424 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:4529   .text._Z12PatchProcessPlS_:000000000000076c $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:4550   .text._Z12PatchProcessPlS_:000000000000077c $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5107   .text._Z12xpatch_init2i.part.0:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5113   .text._Z12xpatch_init2i.part.0:0000000000000000 _Z12xpatch_init2i.part.0
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5583   .text._Z12xpatch_init2i.part.0:0000000000000100 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5837   .rodata._ZZN5rootc10GetPresetsEvE1p:0000000000000000 _ZZN5rootc10GetPresetsEvE1p
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5612   .text._Z11ApplyPresetl:0000000000000000 _Z11ApplyPresetl
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5605   .text._Z11ApplyPresetl:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5755   .text._Z11ApplyPresetl:0000000000000050 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5843   .rodata._ZZN5rootc13GetInitParamsEvE1p:0000000000000000 _ZZN5rootc13GetInitParamsEvE1p
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5761   .boot:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5768   .boot:0000000000000000 xpatch_init
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5796   .boot:000000000000000c $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5801   .text._Z12xpatch_init2i:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5808   .text._Z12xpatch_init2i:0000000000000000 _Z12xpatch_init2i
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5828   .text._Z12xpatch_init2i:000000000000000c $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5840   .rodata._ZZN5rootc13GetInitParamsEvE1p:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5864   .bss.AudioInputMode:0000000000000000 AudioInputMode
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5884   .bss.AudioOutputMode:0000000000000000 AudioOutputMode
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5891   .bss.AudioOutputRight:0000000000000000 AudioOutputRight
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5878   .bss.AudioOutputLeft:0000000000000000 AudioOutputLeft
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5871   .bss.AudioInputRight:0000000000000000 AudioInputRight
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5858   .bss.AudioInputLeft:0000000000000000 AudioInputLeft
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5854   .bss.AudioInputLeft:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5865   .bss.AudioInputMode:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5867   .bss.AudioInputRight:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5874   .bss.AudioOutputLeft:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5885   .bss.AudioOutputMode:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5887   .bss.AudioOutputRight:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5894   .bss._ZL4root:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s:5898   .bss._ZL4root:0000000000000000 _ZL4root
 
 UNDEFINED SYMBOLS
 __dtor_array_start
@@ -9042,7 +9042,7 @@ pitcht
 sine2t
 sdram_init
 memset
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccqRfkPp.s 			page 152
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccKG2oQ6.s 			page 152
 
 
 _pbss_start
