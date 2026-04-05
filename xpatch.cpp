@@ -40,7 +40,20 @@ static const int PARAM_INDEX__star_c__1_amp = 1;
 static const int PARAM_INDEX_FREEZE_b = 2;
 /* controller classes */
 /* object classes */
-class instanceosc__1 {
+class instanceanalog__1 {
+  public: // v1
+  rootc *parent;
+  public: void Init(rootc * _parent) {
+parent = _parent;
+}
+  public: void Dispose() {
+}
+  public: void dsp (int32_t  & outlet_out  ){
+outlet_out = adcvalues[0]<<15;
+}
+
+}
+;class instanceosc__1 {
   public: // v1
   rootc *parent;
 KeyValuePair KVP_instanceosc__1_pitch;
@@ -217,6 +230,7 @@ if (index<0) {
 }
 ;/* controller instances */
 /* object instances */
+     instanceanalog__1 instanceanalog__1_i;
      instanceosc__1 instanceosc__1_i;
      instance_star_c__1 instance_star_c__1_i;
      instancedac__11 instancedac__11_i;
@@ -280,6 +294,7 @@ void Init() {
      displayVector[0] = 0x446F7841;
      displayVector[1] = 0;
      displayVector[2] = 34;
+   instanceanalog__1_i.Init(this );
    instanceosc__1_i.Init(this );
    instance_star_c__1_i.Init(this );
    instancedac__11_i.Init(this, displayVector[3] );
@@ -303,6 +318,7 @@ void Dispose() {
    instancedac__11_i.Dispose();
    instance_star_c__1_i.Dispose();
    instanceosc__1_i.Dispose();
+   instanceanalog__1_i.Dispose();
 }
 
 /* krate */
@@ -314,6 +330,7 @@ void dsp (void) {
     int32buffer  net0;
     int32buffer  net1;
     bool  net2;
+    int32_t  net3;
 //--------- </nets> ----------//
 //--------- <zero> ----------//
   int32_t UNCONNECTED_OUTPUT;
@@ -323,7 +340,8 @@ void dsp (void) {
 //--------- </zero> ----------//
 //--------- <controller calls> ----------//
 //--------- <object calls> ----------//
-  instanceosc__1_i.dsp(0 , zerobuffer, zerobuffer, net1, PExch[PARAM_INDEX_osc__1_pitch].finalvalue);
+  instanceanalog__1_i.dsp(net3);
+  instanceosc__1_i.dsp(net3, zerobuffer, zerobuffer, net1, PExch[PARAM_INDEX_osc__1_pitch].finalvalue);
   instance_star_c__1_i.dsp(net1, net0, PExch[PARAM_INDEX__star_c__1_amp].finalvalue);
   instancedac__11_i.dsp(net0, displayVector[3]);
   instancedac__21_i.dsp(net0, displayVector[4]);
@@ -413,7 +431,7 @@ void xpatch_init2(int fwid)
   patchMeta.pPExch = &root.PExch[0];
   patchMeta.pDisplayVector = &root.displayVector[0];
   patchMeta.numPEx = 3;
-  patchMeta.patchID = 958327115;
+  patchMeta.patchID = -775857493;
   extern char _sdram_dyn_start;
   extern char _sdram_dyn_end;
   sdram_init(&_sdram_dyn_start,&_sdram_dyn_end);

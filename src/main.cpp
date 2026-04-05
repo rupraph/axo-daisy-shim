@@ -39,27 +39,42 @@ struct KeyValuePair *ObjectKvpRoot = nullptr;
 
 /*
  * Linker symbols referenced by xpatch_init2().
- * On real Axoloti, these delimit a dynamic patch BSS section and
- * constructor/destructor arrays. On Daisy, the patch is statically linked,
- * so BSS is zeroed and constructors are called by the normal startup code.
- * We define start == end so the loops in xpatch_init2() iterate zero times.
+ * On real Axoloti, these delimit a dynamic-patch BSS section and
+ * constructor/destructor arrays in SRAM. On Daisy the patch is
+ * statically linked, so BSS is already zeroed by startup code and
+ * constructors run normally.
+ *
+ * We alias every *_end symbol to its *_start counterpart so that:
+ *   &start == &end  →  loop executes zero iterations  →  no memory corruption.
+ *
+ * _sdram_dyn_start / _sdram_dyn_end are plain char variables.
+ * xpatch_init2 calls sdram_init() with their addresses, which temporarily
+ * points the allocator at useless RAM.  We re-init SDRAM after xpatch_init
+ * returns (see main()).
  */
 extern "C" {
-    uint32_t _pbss_start = 0;
-    uint32_t _pbss_end = 0;
-
-    /* Empty function pointer arrays for ctor/dtor iteration */
     typedef void (*funcp_t)(void);
-    funcp_t __ctor_array_start __attribute__((section(".axo_ctors"))) = nullptr;
-    funcp_t __ctor_array_end __attribute__((section(".axo_ctors_end"))) = nullptr;
-    funcp_t __dtor_array_start __attribute__((section(".axo_dtors"))) = nullptr;
-    funcp_t __dtor_array_end __attribute__((section(".axo_dtors_end"))) = nullptr;
 
-    /* SDRAM dynamic region — xpatch_init2 calls sdram_init with these.
-     * We define them here; the actual SDRAM init in main() runs first. */
-    char _sdram_dyn_start __attribute__((section(".sdram_bss"))) = 0;
-    char _sdram_dyn_end __attribute__((section(".sdram_bss"))) = 0;
+    /* Patch BSS region — _pbss_end is aliased to _pbss_start via asm below */
+    uint32_t _pbss_start = 0;
+
+    /* Constructor / destructor arrays — ends aliased to starts via asm below */
+    funcp_t __ctor_array_start = nullptr;
+    funcp_t __dtor_array_start = nullptr;
+
+    /* SDRAM region markers — dummy variables; see re-init in main() */
+    char _sdram_dyn_start = 0;
+    char _sdram_dyn_end = 0;
 }
+
+/*
+ * Assembly-level aliases: make every *_end symbol equal its *_start.
+ * This causes the clearing/iteration loops in xpatch_init2 to execute
+ * zero iterations, preventing memory corruption.
+ */
+asm(".global _pbss_end\n .set _pbss_end, _pbss_start");
+asm(".global __ctor_array_end\n .set __ctor_array_end, __ctor_array_start");
+asm(".global __dtor_array_end\n .set __dtor_array_end, __dtor_array_start");
 
 /* ---- SDRAM allocator state ---- */
 static char *sdram_heap_ptr = nullptr;
@@ -232,22 +247,22 @@ uint32_t FastLog(uint32_t f) {
 /* ---- Audio callback ---- */
 static void AudioCallback(AudioHandle::InputBuffer in,
                             AudioHandle::OutputBuffer out, size_t size) {
-    /* Convert Daisy float input -> Axoloti Q27 interleaved buffer */
+    /* Convert Daisy float input -> Axoloti Q31 interleaved buffer.
+     * PatchProcess() does >>4 internally to get Q27. */
     for (size_t i = 0; i < size; i++) {
-        /* Daisy: in[0][i] = left, in[1][i] = right (float, -1.0 to 1.0) */
-        /* Axoloti: rbuf[i*2] = left, rbuf[i*2+1] = right (Q27 << 4 = Q31) */
-        rbuf[i * 2] = (int32_t)(in[0][i] * 134217728.0f);     /* 1<<27 */
-        rbuf[i * 2 + 1] = (int32_t)(in[1][i] * 134217728.0f);
+        rbuf[i * 2]     = (int32_t)(in[0][i] * 2147483648.0f); /* Q31 */
+        rbuf[i * 2 + 1] = (int32_t)(in[1][i] * 2147483648.0f);
     }
 
     /* Call the Axoloti patch DSP */
     PatchProcess(rbuf, buf);
 
-    /* Convert Axoloti Q27 output -> Daisy float */
-    const float inv_q27 = 1.0f / 134217728.0f; /* 1/(1<<27) */
+    /* Convert Axoloti Q31 output -> Daisy float.
+     * PatchProcess() does <<4 internally (Q27→Q31). */
+    const float inv_q31 = 1.0f / 2147483648.0f; /* 1/(1<<31) */
     for (size_t i = 0; i < size; i++) {
-        out[0][i] = (float)buf[i * 2] * inv_q27;
-        out[1][i] = (float)buf[i * 2 + 1] * inv_q27;
+        out[0][i] = (float)buf[i * 2] * inv_q31;
+        out[1][i] = (float)buf[i * 2 + 1] * inv_q31;
     }
 }
 
@@ -291,6 +306,11 @@ int main(void) {
      * so the clearing/ctor loops are harmless no-ops. */
     xpatch_init2(0);
 #endif
+
+    /* Re-initialize SDRAM allocator — xpatch_init2 called sdram_init() with
+     * dummy _sdram_dyn addresses, corrupting our allocator state. Restore it.
+     * This is safe because root.Init() above doesn't use sdram_malloc. */
+    sdram_init((char *)0xC0000000, (char *)0xC0000000 + (32 * 1024 * 1024));
 
     /* Start audio processing */
     hw.StartAudio(AudioCallback);
