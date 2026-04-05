@@ -20,10 +20,13 @@ LIBDAISY_DIR ?= ../libDaisy
 # Additional include paths for Axoloti shim headers
 C_INCLUDES += -Isrc
 
-# Number of ADC channels (knobs/CV inputs) to scan.
-# Daisy Seed has 12 ADC pins (A0-A11). Set to how many you've wired up.
-# Override on command line: make NUM_ADC_CHANNELS=4
-NUM_ADC_CHANNELS ?= 0
+# Number of ADC channels — auto-detected from xpatch.cpp.
+# Finds the highest adcvalues[N] index and adds 1.
+# Override on command line if needed: make NUM_ADC_CHANNELS=4
+NUM_ADC_CHANNELS ?= $(shell grep -oE 'adcvalues\[([0-9]+)\]' xpatch.cpp 2>/dev/null | grep -oE '[0-9]+' | sort -n | tail -1 | awk '{print $$1+1}')
+ifeq ($(NUM_ADC_CHANNELS),)
+    NUM_ADC_CHANNELS = 0
+endif
 C_DEFS += -DNUM_ADC_CHANNELS=$(NUM_ADC_CHANNELS)
 
 # Auto-extract firmware ID from xpatch.cpp for the init check.
