@@ -104,8 +104,8 @@ build/xpatch.o: xpatch.cpp \
  ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h \
- src/axoloti_compat.h src/patch.h src/axoloti_defines.h src/parameters.h \
- src/midi.h src/axoloti.h src/axoloti_math.h \
+ src/axoloti_compat.h src/axoloti.h src/axoloti_defines.h \
+ src/axoloti_filters.h src/axoloti_math.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/arm_math.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/arm_math_types.h \
  ../libDaisy/Drivers/CMSIS_5/CMSIS/Core/Include/cmsis_compiler.h \
@@ -138,8 +138,9 @@ build/xpatch.o: xpatch.cpp \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/support_functions.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/quaternion_math_functions.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/window_functions.h \
- src/axoloti_oscs.h src/axoloti_filters.h src/parameter_functions.h \
- src/axoloti_memory.h src/ui_stubs.h src/arm_intrinsics.hpp
+ src/axoloti_oscs.h src/midi.h src/axoloti_memory.h \
+ src/parameter_functions.h src/parameters.h src/patch.h src/ui_stubs.h \
+ src/arm_intrinsics.hpp
 ../libDaisy/Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../libDaisy/Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h750xx.h:
 ../libDaisy/Drivers/CMSIS_5/CMSIS/Core/Include/core_cm7.h:
@@ -246,11 +247,9 @@ build/xpatch.o: xpatch.cpp \
 ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
 ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h:
 src/axoloti_compat.h:
-src/patch.h:
-src/axoloti_defines.h:
-src/parameters.h:
-src/midi.h:
 src/axoloti.h:
+src/axoloti_defines.h:
+src/axoloti_filters.h:
 src/axoloti_math.h:
 ../libDaisy/Drivers/CMSIS-DSP/Include/arm_math.h:
 ../libDaisy/Drivers/CMSIS-DSP/Include/arm_math_types.h:
@@ -285,8 +284,10 @@ src/axoloti_math.h:
 ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/quaternion_math_functions.h:
 ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/window_functions.h:
 src/axoloti_oscs.h:
-src/axoloti_filters.h:
-src/parameter_functions.h:
+src/midi.h:
 src/axoloti_memory.h:
+src/parameter_functions.h:
+src/parameters.h:
+src/patch.h:
 src/ui_stubs.h:
 src/arm_intrinsics.hpp:

@@ -19,26 +19,28 @@
  */
 
 /* Map ChibiOS PAL pin set/clear to STM32 HAL directly */
-#define palSetPad(port, pin) \
-    HAL_GPIO_WritePin(port, (1U << (pin)), GPIO_PIN_SET)
+#define palSetPad(port, pin)                                                   \
+  HAL_GPIO_WritePin(port, (1U << (pin)), GPIO_PIN_SET)
 
-#define palClearPad(port, pin) \
-    HAL_GPIO_WritePin(port, (1U << (pin)), GPIO_PIN_RESET)
+#define palClearPad(port, pin)                                                 \
+  HAL_GPIO_WritePin(port, (1U << (pin)), GPIO_PIN_RESET)
 
-#define palReadPad(port, pin) \
-    HAL_GPIO_ReadPin(port, (1U << (pin)))
+#define palReadPad(port, pin) HAL_GPIO_ReadPin(port, (1U << (pin)))
 
-#define palTogglePad(port, pin) \
-    HAL_GPIO_TogglePin(port, (1U << (pin)))
+#define palTogglePad(port, pin) HAL_GPIO_TogglePin(port, (1U << (pin)))
 
 /* Mode configuration stubs — GPIO objects call these during init */
-#define palSetPadMode(port, pin, mode) \
-    do { (void)(port); (void)(pin); (void)(mode); } while(0)
+#define palSetPadMode(port, pin, mode)                                         \
+  do {                                                                         \
+    (void)(port);                                                              \
+    (void)(pin);                                                               \
+    (void)(mode);                                                              \
+  } while (0)
 
 /* ChibiOS PAL mode constants (stubs) */
-#define PAL_MODE_OUTPUT_PUSHPULL  0
-#define PAL_MODE_INPUT            1
-#define PAL_MODE_INPUT_PULLUP     2
-#define PAL_MODE_INPUT_PULLDOWN   3
+#define PAL_MODE_OUTPUT_PUSHPULL 0
+#define PAL_MODE_INPUT 1
+#define PAL_MODE_INPUT_PULLUP 2
+#define PAL_MODE_INPUT_PULLDOWN 3
 
 #endif /* __GPIO_MAPPING_H */

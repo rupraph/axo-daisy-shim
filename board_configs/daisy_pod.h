@@ -10,8 +10,8 @@
 #define BOARD_NUM_ADC_CHANNELS 2
 
 /* Pod knob pins (directly connected ADC inputs) */
-#define BOARD_ADC_PIN_0 daisy::seed::A0  /* Knob 1 */
-#define BOARD_ADC_PIN_1 daisy::seed::A1  /* Knob 2 */
+#define BOARD_ADC_PIN_0 daisy::seed::A0 /* Knob 1 */
+#define BOARD_ADC_PIN_1 daisy::seed::A1 /* Knob 2 */
 
 /* Pod encoder is on pins D26 (A), D27 (B), D28 (click) */
 /* Pod buttons are on D27, D28 */

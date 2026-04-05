@@ -3,6 +3,7 @@
 ## 1. Generated Code Analysis (xpatch.cpp)
 
 ### Structure
+
 The Ksoloti/Akso patcher generates a single `xpatch.cpp` file containing:
 
 - A `rootc` class with methods: `Init()`, `dsp()`, `Dispose()`, `MidiInHandler()`, `ApplyPreset()`
@@ -16,50 +17,51 @@ The Ksoloti/Akso patcher generates a single `xpatch.cpp` file containing:
 - Parameter array: `ParameterExchange_t PExch[nparams]` with function pointers for clamping/scaling
 
 ### Required Headers (via xpatch.h)
-| Header | Purpose | ChibiOS Dependency |
-|--------|---------|-------------------|
-| `axoloti_defines.h` | SAMPLERATE=48000, BUFSIZE=16, int32buffer typedef | None |
-| `axoloti_math.h` | ARM intrinsics, lookup tables (sine2t, pitcht, windowt), sin_q31, mtof48k_q31 | None |
-| `axoloti_filters.h` | biquad_state/coefficients, biquad_dsp, biquad_lp/bp/hp_coefs | None |
-| `parameter_functions.h` | pfun_signed_clamp, pfun_unsigned_clamp, etc. | None |
-| `codec.h` | buf[32]/rbuf[32] externs, computebufI decl | None |
-| `midi.h` | midi_device_t enum, MIDI status/controller defines, MidiSend* | None |
-| `patch.h` | patchMeta_t, ParameterExchange_t, function pointer typedefs | **firmware layer only** |
-| `axoloti_memory.h` | sdram_malloc/free | None |
-| `axoloti.h` | LogTextMessage, master include file | None |
+
+| Header                  | Purpose                                                                       | ChibiOS Dependency      |
+| ----------------------- | ----------------------------------------------------------------------------- | ----------------------- |
+| `axoloti_defines.h`     | SAMPLERATE=48000, BUFSIZE=16, int32buffer typedef                             | None                    |
+| `axoloti_math.h`        | ARM intrinsics, lookup tables (sine2t, pitcht, windowt), sin_q31, mtof48k_q31 | None                    |
+| `axoloti_filters.h`     | biquad_state/coefficients, biquad_dsp, biquad_lp/bp/hp_coefs                  | None                    |
+| `parameter_functions.h` | pfun_signed_clamp, pfun_unsigned_clamp, etc.                                  | None                    |
+| `codec.h`               | buf[32]/rbuf[32] externs, computebufI decl                                    | None                    |
+| `midi.h`                | midi_device_t enum, MIDI status/controller defines, MidiSend\*                | None                    |
+| `patch.h`               | patchMeta_t, ParameterExchange_t, function pointer typedefs                   | **firmware layer only** |
+| `axoloti_memory.h`      | sdram_malloc/free                                                             | None                    |
+| `axoloti.h`             | LogTextMessage, master include file                                           | None                    |
 
 **Key finding: Patches have ZERO ChibiOS dependencies.** ChibiOS is used only by the firmware layer (thread mgmt, USB stack, scheduler). The generated xpatch.cpp never calls any ChibiOS function.
 
 ## 2. ARM Intrinsic Compatibility (Cortex-M4F → Cortex-M7)
 
-| Intrinsic | Used For | M7 Status |
-|-----------|----------|-----------|
-| `___SMMUL(a,b)` | Q31 multiply, keep upper 32 bits | ✅ Available (SMMUL instruction) |
-| `___SMMLA(a,b,c)` | Q31 multiply-accumulate | ✅ Available |
-| `___SMMLS(a,b,c)` | Q31 multiply-subtract | ✅ Available |
-| `__SSAT(v,n)` | Signed saturate to n bits | ✅ Available |
-| `__USAT(v,n)` | Unsigned saturate | ✅ Available |
-| `__CLZ(v)` | Count leading zeros | ✅ Available |
-| `___SDIV` / `___UDIV` | Signed/unsigned divide | ✅ Available |
-| `VCVT` (via FPU) | Float↔int conversion | ✅ fpv5-d16 superset of fpv4-sp-d16 |
+| Intrinsic             | Used For                         | M7 Status                           |
+| --------------------- | -------------------------------- | ----------------------------------- |
+| `___SMMUL(a,b)`       | Q31 multiply, keep upper 32 bits | ✅ Available (SMMUL instruction)    |
+| `___SMMLA(a,b,c)`     | Q31 multiply-accumulate          | ✅ Available                        |
+| `___SMMLS(a,b,c)`     | Q31 multiply-subtract            | ✅ Available                        |
+| `__SSAT(v,n)`         | Signed saturate to n bits        | ✅ Available                        |
+| `__USAT(v,n)`         | Unsigned saturate                | ✅ Available                        |
+| `__CLZ(v)`            | Count leading zeros              | ✅ Available                        |
+| `___SDIV` / `___UDIV` | Signed/unsigned divide           | ✅ Available                        |
+| `VCVT` (via FPU)      | Float↔int conversion             | ✅ fpv5-d16 superset of fpv4-sp-d16 |
 
 **Conclusion: 100% compatible.** No intrinsic rewrites needed.
 
 ## 3. Daisy Seed Hardware Comparison
 
-| Feature | Axoloti (STM32F427) | Akso (STM32H743) | Daisy Seed (STM32H750) |
-|---------|-------------------|-----------------|----------------------|
-| Core | Cortex-M4F, 168MHz | Cortex-M7, 480MHz | Cortex-M7, 480MHz |
-| FPU | fpv4-sp-d16 | fpv5-d16 | fpv5-d16 |
-| Flash | 2MB | 2MB | 128KB (8MB QSPI) |
-| SRAM | 256KB | 1MB | 512KB + 128KB DTCM |
-| SDRAM | 8MB | 32MB | 64MB |
-| Audio | ADAU1961 codec | ADAU1961 | WM8731 (via SAI) |
-| Sample Rate | 48kHz fixed | 48kHz | 48kHz (configurable) |
-| Block Size | 16 samples | 16 samples | Configurable (set to 16) |
-| Audio Format | Q27 fixed-point, interleaved | Q27 fixed-point | Float, non-interleaved |
-| MIDI | DIN + USB | DIN + USB | UART (DIN via TRS) |
-| RNG | STM32 TRNG | STM32 TRNG | STM32 TRNG (same peripheral) |
+| Feature      | Axoloti (STM32F427)          | Akso (STM32H743)  | Daisy Seed (STM32H750)       |
+| ------------ | ---------------------------- | ----------------- | ---------------------------- |
+| Core         | Cortex-M4F, 168MHz           | Cortex-M7, 480MHz | Cortex-M7, 480MHz            |
+| FPU          | fpv4-sp-d16                  | fpv5-d16          | fpv5-d16                     |
+| Flash        | 2MB                          | 2MB               | 128KB (8MB QSPI)             |
+| SRAM         | 256KB                        | 1MB               | 512KB + 128KB DTCM           |
+| SDRAM        | 8MB                          | 32MB              | 64MB                         |
+| Audio        | ADAU1961 codec               | ADAU1961          | WM8731 (via SAI)             |
+| Sample Rate  | 48kHz fixed                  | 48kHz             | 48kHz (configurable)         |
+| Block Size   | 16 samples                   | 16 samples        | Configurable (set to 16)     |
+| Audio Format | Q27 fixed-point, interleaved | Q27 fixed-point   | Float, non-interleaved       |
+| MIDI         | DIN + USB                    | DIN + USB         | UART (DIN via TRS)           |
+| RNG          | STM32 TRNG                   | STM32 TRNG        | STM32 TRNG (same peripheral) |
 
 ## 4. Daisy Audio Interface
 
@@ -74,12 +76,14 @@ void PatchProcess(int32_t* inbuf, int32_t* outbuf);
 ```
 
 Conversion is straightforward:
+
 - Float → Q27: `(int32_t)(float_val * 134217728.0f)` (1 << 27)
 - Q27 → Float: `float_val * (1.0f / 134217728.0f)`
 
 ## 5. Object Library Categorization
 
 ### CLEAN (~53%, ~190 objects) — No firmware dependencies
+
 - **math/**: all arithmetic, scaling, comparison, bitwise ops
 - **osc/**: sine, saw, square, tri, pulse, noise (most), wavetable
 - **filter/**: biquad LP/BP/HP, SVF, allpass, comb, 1-pole, DC blocker
@@ -92,9 +96,10 @@ Conversion is straightforward:
 - **conv/**: type converters (interp, bipolar↔unipolar)
 
 ### NEEDS_MAPPING (~33%, ~130 objects) — Require shim adaptation
+
 - **ctrl/**: knob/slider objects → read Daisy ADC
 - **midi/in/**: MIDI note, CC, pitch bend → MidiInHandler routing
-- **midi/out/**: MIDI send → MidiSend* functions
+- **midi/out/**: MIDI send → MidiSend\* functions
 - **gpio/**: digital in/out → Daisy GPIO
 - **delay/**: echo, chorus, flanger → `sdram_malloc` for delay lines
 - **noise/**: white/pink noise → `rand_s32()` via STM32 RNG
@@ -102,6 +107,7 @@ Conversion is straightforward:
 - **disp/**: scope, meter → display vectors (functional without physical display)
 
 ### BLOCKED (~14%, ~50 objects) — Missing hardware/firmware
+
 - **display/**: LCD, OLED objects (no display on Daisy Seed)
 - **sd/**: SD card read/write (no SD slot without adapter)
 - **usb/**: USB audio passthrough, USB host MIDI, USB gamepad
@@ -110,6 +116,7 @@ Conversion is straightforward:
 ## 6. Memory Layout
 
 **Daisy Seed memory map:**
+
 - `0x08000000` — 128KB internal flash (bootloader + firmware)
 - `0x20000000` — 512KB SRAM
 - `0x24000000` — 128KB DTCM
@@ -121,6 +128,7 @@ Axoloti's `sdram_malloc` allocates from SDRAM. We can implement this identically
 ## 7. Build System
 
 Daisy uses a `core/Makefile` include pattern:
+
 ```makefile
 TARGET = my_project
 CPP_SOURCES = main.cpp

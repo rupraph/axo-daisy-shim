@@ -8,8 +8,8 @@
 #ifndef __CODEC_H
 #define __CODEC_H
 
-#include <stdint.h>
 #include "axoloti_defines.h"
+#include <stdint.h>
 
 #ifdef __cplusplus
 extern "C" {

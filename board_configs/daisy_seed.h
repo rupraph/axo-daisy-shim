@@ -11,7 +11,7 @@
 #define BOARD_NUM_ADC_CHANNELS 0
 
 /* MIDI configuration */
-#define BOARD_MIDI_UART_RX daisy::DaisySeed::Pin::D14  /* USART1 RX */
+#define BOARD_MIDI_UART_RX daisy::DaisySeed::Pin::D14 /* USART1 RX */
 
 /* Audio: stereo in/out via onboard codec — no configuration needed */
 

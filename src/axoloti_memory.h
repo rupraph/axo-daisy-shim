@@ -8,8 +8,8 @@
 #ifndef AXOLOTI_MEMORY_H
 #define AXOLOTI_MEMORY_H
 
-#include <stdint.h>
 #include <stddef.h>
+#include <stdint.h>
 
 #ifdef __cplusplus
 extern "C" {

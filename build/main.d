@@ -104,8 +104,8 @@ build/main.o: src/main.cpp \
  ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h \
- src/axoloti_compat.h src/patch.h src/axoloti_defines.h src/parameters.h \
- src/midi.h src/axoloti.h src/axoloti_math.h \
+ src/axoloti_compat.h src/axoloti.h src/axoloti_defines.h \
+ src/axoloti_filters.h src/axoloti_math.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/arm_math.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/arm_math_types.h \
  ../libDaisy/Drivers/CMSIS_5/CMSIS/Core/Include/cmsis_compiler.h \
@@ -138,28 +138,28 @@ build/main.o: src/main.cpp \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/support_functions.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/quaternion_math_functions.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/window_functions.h \
- src/axoloti_oscs.h src/axoloti_filters.h src/parameter_functions.h \
- src/axoloti_memory.h src/ui_stubs.h src/arm_intrinsics.hpp \
- ../libDaisy/src/daisy_seed.h ../libDaisy/src/daisy.h \
- ../libDaisy/src/daisy_core.h ../libDaisy/src/version.h \
- ../libDaisy/src/sys/system.h ../libDaisy/src/per/tim.h \
- ../libDaisy/src/per/qspi.h ../libDaisy/src/util/hal_map.h \
- ../libDaisy/src/per/dac.h ../libDaisy/src/per/gpio.h \
- ../libDaisy/src/per/pwm.h ../libDaisy/src/dev/leddriver.h \
- ../libDaisy/src/per/i2c.h ../libDaisy/src/dev/mpr121.h \
- ../libDaisy/src/dev/sdram.h ../libDaisy/src/dev/sr_4021.h \
- ../libDaisy/src/sys/system.h ../libDaisy/src/hid/audio.h \
- ../libDaisy/src/per/sai.h ../libDaisy/src/util/unique_id.h \
- ../libDaisy/src/per/adc.h ../libDaisy/src/per/uart.h \
- ../libDaisy/src/hid/midi.h ../libDaisy/src/util/ringbuffer.h \
- ../libDaisy/src/util/FIFO.h ../libDaisy/src/hid/midi_parser.h \
- ../libDaisy/src/hid/MidiEvent.h ../libDaisy/src/hid/usb_midi.h \
- ../libDaisy/src/hid/usb.h ../libDaisy/src/sys/dma.h \
- ../libDaisy/src/hid/encoder.h ../libDaisy/src/hid/switch.h \
- ../libDaisy/src/hid/switch3.h ../libDaisy/src/hid/ctrl.h \
- ../libDaisy/src/hid/gatein.h ../libDaisy/src/hid/parameter.h \
- ../libDaisy/src/hid/logger.h ../libDaisy/src/hid/logger_impl.h \
- ../libDaisy/src/hid/usb_host.h \
+ src/axoloti_oscs.h src/midi.h src/axoloti_memory.h \
+ src/parameter_functions.h src/parameters.h src/patch.h src/ui_stubs.h \
+ src/arm_intrinsics.hpp src/axoloti_compat.h ../libDaisy/src/daisy_seed.h \
+ ../libDaisy/src/daisy.h ../libDaisy/src/daisy_core.h \
+ ../libDaisy/src/version.h ../libDaisy/src/sys/system.h \
+ ../libDaisy/src/per/tim.h ../libDaisy/src/per/qspi.h \
+ ../libDaisy/src/util/hal_map.h ../libDaisy/src/per/dac.h \
+ ../libDaisy/src/per/gpio.h ../libDaisy/src/per/pwm.h \
+ ../libDaisy/src/dev/leddriver.h ../libDaisy/src/per/i2c.h \
+ ../libDaisy/src/dev/mpr121.h ../libDaisy/src/dev/sdram.h \
+ ../libDaisy/src/dev/sr_4021.h ../libDaisy/src/sys/system.h \
+ ../libDaisy/src/hid/audio.h ../libDaisy/src/per/sai.h \
+ ../libDaisy/src/util/unique_id.h ../libDaisy/src/per/adc.h \
+ ../libDaisy/src/per/uart.h ../libDaisy/src/hid/midi.h \
+ ../libDaisy/src/util/ringbuffer.h ../libDaisy/src/util/FIFO.h \
+ ../libDaisy/src/hid/midi_parser.h ../libDaisy/src/hid/MidiEvent.h \
+ ../libDaisy/src/hid/usb_midi.h ../libDaisy/src/hid/usb.h \
+ ../libDaisy/src/sys/dma.h ../libDaisy/src/hid/encoder.h \
+ ../libDaisy/src/hid/switch.h ../libDaisy/src/hid/switch3.h \
+ ../libDaisy/src/hid/ctrl.h ../libDaisy/src/hid/gatein.h \
+ ../libDaisy/src/hid/parameter.h ../libDaisy/src/hid/logger.h \
+ ../libDaisy/src/hid/logger_impl.h ../libDaisy/src/hid/usb_host.h \
  ../libDaisy/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h \
  ../libDaisy/src/usbh/usbh_conf.h ../libDaisy/src/per/sdmmc.h \
  ../libDaisy/src/per/spi.h ../libDaisy/src/per/spiMultislave.h \
@@ -195,8 +195,8 @@ build/main.o: src/main.cpp \
  ../libDaisy/src/util/WaveTableLoader.h ../libDaisy/src/sys/fatfs.h \
  ../libDaisy/src/util/wav_format.h ../libDaisy/src/util/WavParser.h \
  ../libDaisy/src/util/WavPlayer.h ../libDaisy/src/daisy.h \
- ../libDaisy/src/util/WavWriter.h src/axoloti_compat.h \
- src/patch_wrapper.h src/axoloti_defines.h src/midi.h
+ ../libDaisy/src/util/WavWriter.h src/patch_wrapper.h \
+ src/axoloti_defines.h src/midi.h
 ../libDaisy/Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../libDaisy/Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h750xx.h:
 ../libDaisy/Drivers/CMSIS_5/CMSIS/Core/Include/core_cm7.h:
@@ -303,11 +303,9 @@ build/main.o: src/main.cpp \
 ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
 ../libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hcd.h:
 src/axoloti_compat.h:
-src/patch.h:
-src/axoloti_defines.h:
-src/parameters.h:
-src/midi.h:
 src/axoloti.h:
+src/axoloti_defines.h:
+src/axoloti_filters.h:
 src/axoloti_math.h:
 ../libDaisy/Drivers/CMSIS-DSP/Include/arm_math.h:
 ../libDaisy/Drivers/CMSIS-DSP/Include/arm_math_types.h:
@@ -342,11 +340,14 @@ src/axoloti_math.h:
 ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/quaternion_math_functions.h:
 ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/window_functions.h:
 src/axoloti_oscs.h:
-src/axoloti_filters.h:
-src/parameter_functions.h:
+src/midi.h:
 src/axoloti_memory.h:
+src/parameter_functions.h:
+src/parameters.h:
+src/patch.h:
 src/ui_stubs.h:
 src/arm_intrinsics.hpp:
+src/axoloti_compat.h:
 ../libDaisy/src/daisy_seed.h:
 ../libDaisy/src/daisy.h:
 ../libDaisy/src/daisy_core.h:
@@ -444,7 +445,6 @@ src/arm_intrinsics.hpp:
 ../libDaisy/src/util/WavPlayer.h:
 ../libDaisy/src/daisy.h:
 ../libDaisy/src/util/WavWriter.h:
-src/axoloti_compat.h:
 src/patch_wrapper.h:
 src/axoloti_defines.h:
 src/midi.h:
