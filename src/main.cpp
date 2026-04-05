@@ -34,6 +34,9 @@ uint8_t hid_mouse_y = 0;
 uint8_t hid_keys[6] = {0};
 uint8_t hid_key_modifiers = 0;
 
+/* ---- ADC values (read by gpio/in/analog objects) ---- */
+uint16_t adcvalues[16] = {0};
+
 /* ---- KVP stubs (UI system — no-op on Daisy) ---- */
 struct KeyValuePair *ObjectKvpRoot = nullptr;
 
@@ -247,6 +250,14 @@ uint32_t FastLog(uint32_t f) {
 /* ---- Audio callback ---- */
 static void AudioCallback(AudioHandle::InputBuffer in,
                             AudioHandle::OutputBuffer out, size_t size) {
+#if NUM_ADC_CHANNELS > 0
+    /* Update ADC values from Daisy's DMA-driven ADC.
+     * Daisy returns 16-bit (0–65535); Axoloti expects 12-bit (0–4095). */
+    for (int ch = 0; ch < NUM_ADC_CHANNELS; ch++) {
+        adcvalues[ch] = hw.adc.Get(ch) >> 4;
+    }
+#endif
+
     /* Convert Daisy float input -> Axoloti Q31 interleaved buffer.
      * PatchProcess() does >>4 internally to get Q27. */
     for (size_t i = 0; i < size; i++) {
@@ -287,6 +298,24 @@ int main(void) {
     /* Enable hardware RNG for rand_s32() */
     __HAL_RCC_RNG_CLK_ENABLE();
     RNG->CR |= RNG_CR_RNGEN;
+
+#if NUM_ADC_CHANNELS > 0
+    /* Initialize ADC — one channel per knob/CV input.
+     * Channel 0 → pin A0 (Daisy D15), channel 1 → A1 (D16), etc.
+     * Wire potentiometers: wiper→pin, ends→3V3 and GND. */
+    {
+        using namespace daisy::seed;
+        static constexpr daisy::Pin adc_pins[] = {
+            A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11
+        };
+        daisy::AdcChannelConfig adc_cfg[NUM_ADC_CHANNELS];
+        for (int i = 0; i < NUM_ADC_CHANNELS; i++) {
+            adc_cfg[i].InitSingle(adc_pins[i]);
+        }
+        hw.adc.Init(adc_cfg, NUM_ADC_CHANNELS);
+        hw.adc.Start();
+    }
+#endif
 
     /* Initialize UART MIDI (default pins) */
     MidiUartHandler::Config midi_cfg;

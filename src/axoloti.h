@@ -23,9 +23,23 @@
 #define SECTION_CCMSRAM __attribute__((section(".dtcmram_bss")))
 #define SECTION_SDRAM   __attribute__((section(".sdram_bss")))
 
+/* Number of ADC channels to scan.
+ * Daisy Seed v1.1 has 12 ADC-capable pins (A0–A11).
+ * Set NUM_ADC_CHANNELS to however many knobs/CVs you wire up (max 12).
+ * Default: 0 (no ADC). Override in Makefile with -DNUM_ADC_CHANNELS=N.
+ */
+#ifndef NUM_ADC_CHANNELS
+#define NUM_ADC_CHANNELS 0
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+/* ADC values array — 12-bit (0–4095), same format as Axoloti.
+ * In the patcher, gpio/in/analog channel N reads adcvalues[N].
+ * Channel 0 = Daisy pin A0 (D15), channel 1 = A1 (D16), etc. */
+extern uint16_t adcvalues[16];
 
 /* Debug logging — outputs via Daisy's USB serial (if connected) */
 void LogTextMessage(const char *format, ...);
