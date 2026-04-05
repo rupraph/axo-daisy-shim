@@ -83,12 +83,12 @@ daisy-axoloti-shim/
 
 ## Build Stats (test_sine.cpp)
 
-| Region | Used | Available | Usage |
-|--------|------|-----------|-------|
-| FLASH | 91.2 KB | 128 KB | 69.6% |
-| SRAM | 75.1 KB | 512 KB | 14.3% |
-| RAM_D2 | 16.6 KB | 288 KB | 5.6% |
-| SDRAM | 0 | 64 MB | 0% (allocated at runtime) |
+| Region | Used    | Available | Usage                     |
+| ------ | ------- | --------- | ------------------------- |
+| FLASH  | 91.2 KB | 128 KB    | 69.6%                     |
+| SRAM   | 75.1 KB | 512 KB    | 14.3%                     |
+| RAM_D2 | 16.6 KB | 288 KB    | 5.6%                      |
+| SDRAM  | 0       | 64 MB     | 0% (allocated at runtime) |
 
 ## How It Works
 
@@ -99,7 +99,7 @@ daisy-axoloti-shim/
    - Daisy float input → Q27 interleaved buffer (`rbuf[]`)
    - `PatchProcess(rbuf, buf)` runs the patch DSP
    - Q27 interleaved buffer (`buf[]`) → Daisy float output
-5. **MIDI**: Main loop polls UART MIDI, converts events to `PatchMidiInHandler()` calls
+5. **MIDI**: Main loop polls UART MIDI, converts events to `PatchMidiInHandler()` calls - Untested
 
 ## Coverage
 

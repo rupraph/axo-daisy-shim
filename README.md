@@ -106,28 +106,28 @@ Sine, pitch-to-frequency, window, exponential, log, and BLEP tables are generate
 
 ## What Works
 
-| Category | Examples | Status |
-|----------|----------|--------|
-| Oscillators | sine, saw, square, tri, pulse, wavetable | ✅ |
-| Filters | biquad LP/BP/HP, SVF, allpass, comb, 1-pole | ✅ |
-| Envelopes | ADSR, AD, AR, decay, follow | ✅ |
-| LFOs | sine, tri, square, saw | ✅ |
-| Math | arithmetic, scaling, comparison, bitwise | ✅ |
-| Logic | gates, triggers, comparators, toggle | ✅ |
-| Mixing | crossfade, gain, pan, VCA | ✅ |
-| Delays | echo, chorus, flanger (via SDRAM) | ✅ |
-| Noise | white, pink (via hardware RNG) | ✅ |
-| MIDI in/out | note, CC, pitch bend, sysex | ✅ |
-| Parameters | knobs, faders, parameter exchange | ✅ |
+| Category    | Examples                                    | Status |
+| ----------- | ------------------------------------------- | ------ |
+| Oscillators | sine, saw, square, tri, pulse, wavetable    | ✅     |
+| Filters     | biquad LP/BP/HP, SVF, allpass, comb, 1-pole | ✅     |
+| Envelopes   | ADSR, AD, AR, decay, follow                 | ✅     |
+| LFOs        | sine, tri, square, saw                      | ✅     |
+| Math        | arithmetic, scaling, comparison, bitwise    | ✅     |
+| Logic       | gates, triggers, comparators, toggle        | ✅     |
+| Mixing      | crossfade, gain, pan, VCA                   | ✅     |
+| Delays      | echo, chorus, flanger (via SDRAM)           | ✅     |
+| Noise       | white, pink (via hardware RNG)              | ✅     |
+| MIDI in/out | note, CC, pitch bend, sysex                 | ✅     |
+| Parameters  | knobs, faders, parameter exchange           | ✅     |
 
 ## What Doesn't Work
 
-| Category | Reason |
-|----------|--------|
-| Display objects | No LCD/OLED on Daisy Seed |
-| SD card objects | No SD slot without adapter |
-| USB audio passthrough | Different USB stack |
-| USB host MIDI | Not available on Daisy Seed |
+| Category               | Reason                                   |
+| ---------------------- | ---------------------------------------- |
+| Display objects        | No LCD/OLED on Daisy Seed                |
+| SD card objects        | No SD slot without adapter               |
+| USB audio passthrough  | Different USB stack                      |
+| USB host MIDI          | Not available on Daisy Seed              |
 | Live parameter control | Out of scope (no USB parameter protocol) |
 
 ## Build Configuration
@@ -172,12 +172,12 @@ To use a board config, include it before `axoloti_compat.h` in your build or add
 - [ ] Daisy Pod knob → parameter mapping
 - [ ] QSPI flash bootloader support for large patches
 - [ ] ADC → Axoloti ctrl/ object mapping
-- [ ] Display object support via Daisy Patch OLED
 - [ ] Test with complex real-world patches
 - [ ] CI build testing
 
 ## License
 
 This shim layer is provided as-is for personal/educational use. It references APIs from:
+
 - [libDaisy](https://github.com/electro-smith/libDaisy) (MIT License)
 - [Ksoloti](https://github.com/ksoloti/ksoloti) / [Axoloti](https://github.com/axoloti/axoloti) (GPL v3)
