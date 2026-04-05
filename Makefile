@@ -17,6 +17,9 @@ CPP_SOURCES = src/main.cpp
 LIBDAISY_DIR ?= ../libDaisy
 # DAISYSP_DIR ?= ../DaisySP
 
+# FatFS Unicode support (needed when patches use file I/O objects)
+C_SOURCES += $(LIBDAISY_DIR)/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c
+
 # Additional include paths for Axoloti shim headers
 C_INCLUDES += -Isrc
 

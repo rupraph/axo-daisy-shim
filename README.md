@@ -1,108 +1,100 @@
 # daisy-axoloti-shim
 
-Run Axoloti/Ksoloti patches on Daisy Seed hardware.
+Run Axoloti/Ksoloti patches on Daisy Seed hardware. This is a work in progress. It has been tested working with a few patches on a daisyseed 1.2.
 
-This shim layer provides the API surface that Axoloti/Ksoloti/Akso-generated `xpatch.cpp` files expect, backed by Electro-Smith's libDaisy. Patches compile unmodified and run standalone on Daisy Seed — no Axoloti board or firmware required.
+This shim layer lets Axoloti/Ksoloti/Akso-generated `xpatch.cpp` files compile and run unmodified on a Daisy Seed — no Axoloti board or firmware required.
 
-## What It Does
+## What You Need
 
-- Bridges Daisy's float audio to Axoloti's Q27 fixed-point format at the audio callback boundary
-- Provides all headers that `xpatch.cpp` includes (`axoloti_math.h`, `patch.h`, `midi.h`, etc.)
-- Implements SDRAM allocation, lookup table generation, UART MIDI, and hardware RNG
-- Compiles with the standard libDaisy build system (`arm-none-eabi-gcc`, GNU++14)
+- A [Daisy Seed](https://www.electro-smith.com/daisy/daisy) board
+- [Ksoloti patcher](https://ksoloti.github.io/) installed (to generate `xpatch.cpp` from your `.axp` patches)
+- [DaisyToolchain](https://github.com/electro-smith/DaisyToolchain/releases) installed (provides the ARM compiler, `make`, and `dfu-util`)
 
-## Prerequisites
+## Setup
 
-- [GNU Arm Embedded Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) (arm-none-eabi-gcc 10.3+)
-- [libDaisy](https://github.com/electro-smith/libDaisy) — cloned and built adjacent to this directory
-- A Daisy Seed board
-- [Ksoloti](https://ksoloti.github.io/) or Akso patcher (to generate `xpatch.cpp`)
+### 1. Install the DaisyToolchain
 
-## Directory Layout
+Download and run the installer for your OS from the [DaisyToolchain releases page](https://github.com/electro-smith/DaisyToolchain/releases). This gives you `arm-none-eabi-gcc`, `make`, and `dfu-util`.
+
+### 2. Clone and build libDaisy
+
+libDaisy must be cloned **next to** this repository (the Makefile expects it at `../libDaisy`):
 
 ```
-daisy-axoloti-shim/
-├── Makefile                      # Build config
-├── src/
-│   ├── main.cpp                  # Daisy entry point + runtime
-│   ├── axoloti_compat.h          # Master include (replaces xpatch.h)
-│   └── ... (shim headers)        # API-compatible replacements
-├── test/
-│   └── test_sine.cpp             # Built-in test patch (440Hz sine)
-├── board_configs/                # Pin mappings for Daisy variants
-└── investigation/                # Research reports
+your-workspace/
+├── libDaisy/              ← clone here
+└── daisy-axoloti-shim/    ← this repo
 ```
-
-## Quick Start
-
-### 1. Clone and build libDaisy
 
 ```bash
-cd /path/to/your/workspace
+cd /path/to/your-workspace
 git clone https://github.com/electro-smith/libDaisy.git
 cd libDaisy
 git submodule update --init --recursive
 make
-cd ..
 ```
 
-### 2. Build the test patch
+### 3. Enable code generation in Ksoloti
+
+The "Generate code" menu option is hidden by default. To enable it:
+
+1. Quit the Ksoloti patcher if it's running
+2. Open the preferences file in a text editor:
+   - **macOS**: `Ksoloti.app/Contents/Resources/ksoloti.prefs`
+   - **Windows**: `Ksoloti/ksoloti.prefs`
+   - **Linux**: `ksoloti/ksoloti.prefs`
+3. Change `<ExpertMode>false</ExpertMode>` to `<ExpertMode>true</ExpertMode>`
+4. Save and restart the patcher
+
+## Usage
+
+### Generate code from your patch
+
+1. Open your `.axp` patch in the Ksoloti patcher
+2. Go to **Patch → Generate code** — this creates an `xpatch.cpp` file. The patcher's console output shows the file path.
+3. Copy the generated `xpatch.cpp` into this directory:
 
 ```bash
-cd daisy-axoloti-shim
-make CPP_SOURCES="src/main.cpp test/test_sine.cpp"
+cp /path/to/generated/xpatch.cpp /path/to/daisy-axoloti-shim/
 ```
 
-This compiles a 440Hz sine oscillator that responds to MIDI note-on messages.
+### Build the daisy patch image
 
-### 3. Flash to Daisy Seed
+```bash
+cd /path/to/daisy-axoloti-shim
+make clean && make CPP_SOURCES="src/main.cpp xpatch.cpp"
+```
 
-Enter DFU mode (hold BOOT, press RESET, release BOOT), then:
+The Makefile auto-detects the patch's firmware ID and ADC channel count from `xpatch.cpp` — no manual configuration needed.
+
+When switching to a different patch, you must rebuild. You can either run `make clean` again, or for a faster rebuild that only recompiles the patch:
+
+```bash
+rm -f build/xpatch.o && make CPP_SOURCES="src/main.cpp xpatch.cpp"
+```
+
+### Flash to Daisy Seed
+
+1. Connect the Daisy Seed via USB
+2. Enter DFU mode: hold **BOOT**, press **RESET**, release **BOOT** — the LED should go dark
+3. Flash:
 
 ```bash
 make program-dfu
 ```
 
-Or use the Daisy Web Programmer with `build/axo_patch.bin`.
+The board resets automatically after flashing. Audio starts immediately.
 
-### 4. Use your own patch
+To flash a different patch, just replace `xpatch.cpp`, rebuild, put the board back in DFU mode, and flash again.
 
-1. Open your patch in the Ksoloti/Akso patcher
-2. Generate code (the patcher produces `xpatch.cpp`)
-3. Copy `xpatch.cpp` into this directory
-4. Build:
+## MIDI
 
-```bash
-make CPP_SOURCES="src/main.cpp xpatch.cpp"
-```
+Both UART and USB MIDI work simultaneously:
 
-5. Flash and run
+- **USB MIDI** — the Daisy appears as a USB MIDI device to your computer/DAW via the micro-USB cable. No extra hardware needed.
+- **UART MIDI** — for DIN/TRS MIDI circuits wired to Daisy pins D13/D14 (USART1).
 
-## How It Works
-
-### Audio Path
-
-```
-Daisy SAI (float, -1.0 to 1.0, non-interleaved, 16 samples)
-    ↓ float_to_q27()
-Axoloti patch (Q27 fixed-point, interleaved stereo, 16 samples)
-    ↓ q27_to_float()
-Daisy SAI output
-```
-
-The conversion happens in `AudioCallback` in `main.cpp`. The patch's `PatchProcess()` function sees exactly the same buffer format it expects on real Axoloti hardware.
-
-### MIDI
-
-UART MIDI on Daisy's default MIDI pins (USART1). The main loop polls for MIDI events and converts them to `PatchMidiInHandler()` calls with the same signature the patch expects.
-
-### Memory
-
-A bump allocator over Daisy's 64MB SDRAM (at `0xC0000000`) provides `sdram_malloc()`. This is the same allocation pattern the original Axoloti firmware uses for delay lines and large buffers.
-
-### Lookup Tables
-
-Sine, pitch-to-frequency, window, exponential, log, and BLEP tables are generated at startup from the same formulas as the original firmware. These are used by oscillator, filter, and math objects.
+MIDI output routing respects the `midi_device_t` parameter from the patch: `MIDI_DEVICE_DIN` sends to UART, `MIDI_DEVICE_USB_DEVICE` sends to USB, and `MIDI_DEVICE_OMNI` sends to both.
 
 ## What Works
 
@@ -118,66 +110,39 @@ Sine, pitch-to-frequency, window, exponential, log, and BLEP tables are generate
 | Delays      | echo, chorus, flanger (via SDRAM)           | ✅     |
 | Noise       | white, pink (via hardware RNG)              | ✅     |
 | MIDI in/out | note, CC, pitch bend, sysex                 | ✅     |
-| Parameters  | knobs, faders, parameter exchange           | ✅     |
+| ADC inputs  | knobs/CV via gpio/in/analog objects         | ✅     |
 
-## What Doesn't Work
+## What Doesn't Work (Yet)
 
-| Category               | Reason                                   |
-| ---------------------- | ---------------------------------------- |
-| Display objects        | No LCD/OLED on Daisy Seed                |
-| SD card objects        | No SD slot without adapter               |
-| USB audio passthrough  | Different USB stack                      |
-| USB host MIDI          | Not available on Daisy Seed              |
-| Live parameter control | Out of scope (no USB parameter protocol) |
-
-## Build Configuration
-
-The Makefile uses libDaisy's `core/Makefile` include pattern. Key settings:
-
-- **Target MCU**: STM32H750 (Cortex-M7, 480MHz)
-- **FPU**: fpv5-d16 (hardware float, single+double)
-- **Optimization**: `-O3 -ffast-math`
-- **Standard**: GNU++14
-- **Audio**: 48kHz, 16-sample blocks, stereo
-
-To adjust the libDaisy path:
-
-```bash
-make LIBDAISY_DIR=/path/to/libDaisy CPP_SOURCES="src/main.cpp xpatch.cpp"
-```
-
-## Board Variants
-
-Header files in `board_configs/` provide pin mappings for:
-
-- **Daisy Seed** — bare board, default MIDI pins
-- **Daisy Pod** — 2 knobs mapped to first 2 ADC params, encoder to param 3
-- **Daisy Patch** — 4 CV inputs, 2 CV outputs
-
-To use a board config, include it before `axoloti_compat.h` in your build or add `-include board_configs/daisy_pod.h` to CPPFLAGS.
+| Category               | Reason                                           |
+| ---------------------- | ------------------------------------------------ |
+| GPIO digital in/out    | ChibiOS palReadPad/palSetPadMode not yet shimmed |
+| USB host MIDI          | Needs USB-A connector soldered to PB14/PB15      |
+| Display objects        | No LCD/OLED on bare Daisy Seed                   |
+| SD card objects        | No SD slot without adapter                       |
+| Live parameter control | Out of scope (no USB parameter protocol)         |
 
 ## Troubleshooting
 
-**"undefined reference to `xpatch_init`"** — You need to add your `xpatch.cpp` to CPP_SOURCES.
+**Build fails with "No rule to make target 'xpatch.cpp'"** — Make sure you copied `xpatch.cpp` into the repo directory.
 
-**"region FLASH overflowed"** — Complex patches may exceed 128KB. Use the Daisy bootloader to run from QSPI flash (8MB). See [Daisy bootloader docs](https://github.com/electro-smith/libDaisy/blob/master/doc/md/_a7_Getting-Started-Daisy-Bootloader.md).
+**"region FLASH overflowed"** — The patch exceeds 128KB. Very complex patches may need the [Daisy bootloader](https://github.com/electro-smith/libDaisy/blob/master/doc/md/_a7_Getting-Started-Daisy-Bootloader.md) to run from QSPI flash (8MB).
 
-**No audio output** — Check that your Daisy Seed's audio codec connections are correct. The shim expects the default WM8731 codec configuration.
+**No audio output** — Verify the Daisy Seed's audio codec connections. The shim uses the default AK4556 codec configuration.
 
-**MIDI not working** — MIDI uses USART1 by default. Ensure your MIDI circuit is on the correct pins (Daisy Seed pins 13/14).
+**MIDI not working** — Make sure you're sending to the correct USB MIDI device. For UART MIDI, check that your circuit is on pins D13/D14.
 
-## Roadmap
+**`make program-dfu` fails** — The board isn't in DFU mode. Hold BOOT, press RESET, release BOOT, then try again.
 
-- [ ] USB MIDI support (in addition to UART)
-- [ ] Daisy Pod knob → parameter mapping
-- [ ] QSPI flash bootloader support for large patches
-- [ ] ADC → Axoloti ctrl/ object mapping
-- [ ] Test with complex real-world patches
-- [ ] CI build testing
+## How It Works
+
+The shim provides all the headers that `xpatch.cpp` expects (`axoloti_math.h`, `patch.h`, `midi.h`, etc.) backed by libDaisy. At the audio boundary, it converts between Daisy's float samples and Axoloti's Q27 fixed-point format. Lookup tables (sine, pitch, window, exp, log, BLEP) are generated at startup from the same formulas as the original firmware. A bump allocator over Daisy's 64MB SDRAM provides `sdram_malloc()` for delay lines and large buffers.
 
 ## License
 
-This shim layer is provided as-is for personal/educational use. It references APIs from:
+This software is provided **as-is, without warranty of any kind**, express or implied. It is a work in progress — not all Axoloti objects and features have been tested. Use at your own risk.
+
+It references APIs from:
 
 - [libDaisy](https://github.com/electro-smith/libDaisy) (MIT License)
 - [Ksoloti](https://github.com/ksoloti/ksoloti) / [Axoloti](https://github.com/axoloti/axoloti) (GPL v3)

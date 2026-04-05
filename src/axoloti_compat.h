@@ -10,6 +10,7 @@
 extern "C" {
 #include "axoloti.h"
 #include "axoloti_memory.h"
+#include "fatfs_stubs.h"
 #include "parameter_functions.h"
 #include "patch.h"
 #include "ui_stubs.h"

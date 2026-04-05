@@ -18,6 +18,59 @@ typedef struct {
   int32_t filter_y_n2;
 } data_filter_biquad_A;
 
+#define process_filter_biquad_A(name, sourcebuf, destbuf, filter_W0, q_inv)    \
+  f_filter_biquad_A(name, sourcebuf, destbuf, filter_W0, q_inv);
+
+static inline void init_filter_biquad_A(data_filter_biquad_A *d) {
+  d->filter_x_n1 = 0;
+  d->filter_x_n2 = 0;
+  d->filter_y_n1 = 0;
+  d->filter_y_n2 = 0;
+}
+
+static void __attribute__((noinline))
+f_filter_biquad_A(data_filter_biquad_A *v, const int32_t *sourcebuf,
+                  int32_t *destbuf, uint32_t filter_W0, uint32_t q_inv) {
+  int32_t sinW0;
+  int32_t cosW0;
+  int a = filter_W0;
+  int b = filter_W0 + (1 << 30);
+  SINE2TINTERP(a, sinW0)
+  SINE2TINTERP(b, cosW0)
+  int32_t alpha = ___SMMUL(sinW0, q_inv);
+  int32_t filter_x_n1 = v->filter_x_n1;
+  int32_t filter_x_n2 = v->filter_x_n2;
+  int32_t filter_y_n1 = v->filter_y_n1;
+  int32_t filter_y_n2 = v->filter_y_n2;
+  float filter_a0 = (HALFQ31 + alpha);
+  float filter_a0_inv = ((INT32_MAX >> 2) / filter_a0);
+  int32_t a0_inv_q31 = (int32_t)(INT32_MAX * filter_a0_inv);
+  int32_t filter_a1 = ___SMMUL(-(-cosW0), a0_inv_q31);
+  int32_t filter_a2 = ___SMMUL(-(HALFQ31 - alpha), a0_inv_q31);
+  int32_t filter_b0 = ___SMMUL(HALFQ31 - (cosW0 >> 1), a0_inv_q31);
+  int32_t filter_b1 = (filter_b0 >> 1);
+  int i;
+  for (i = 0; i < BUFSIZE; i++) {
+    int32_t filterinput = *(sourcebuf++);
+    int32_t accu = ___SMMUL(filter_b0, filterinput);
+    accu = ___SMMLA(filter_b0, filter_x_n2, accu);
+    accu = ___SMMLA(filter_b1, filter_x_n1, accu);
+    accu = ___SMMLA(filter_a1, filter_y_n1, accu);
+    accu = ___SMMLA(filter_a2, filter_y_n2, accu);
+    int32_t filteroutput;
+    filteroutput = __SSAT(accu, 28) << 4;
+    filter_x_n2 = filter_x_n1;
+    filter_x_n1 = filterinput;
+    filter_y_n2 = filter_y_n1;
+    filter_y_n1 = filteroutput;
+    *(destbuf++) = filteroutput;
+  }
+  v->filter_x_n1 = filter_x_n1;
+  v->filter_x_n2 = filter_x_n2;
+  v->filter_y_n1 = filter_y_n1;
+  v->filter_y_n2 = filter_y_n2;
+}
+
 typedef struct {
   int32_t filter_x_n1;
   int32_t filter_x_n2;
