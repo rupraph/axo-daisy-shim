@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   20:../libDaisy/src/daisy_seed.h ****   public:
   21:../libDaisy/src/daisy_seed.h ****     DaisySeed() {}
   22:../libDaisy/src/daisy_seed.h ****     ~DaisySeed() {}
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 2
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 2
 
 
   37              		.loc 1 22 5 view -0
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   20:../libDaisy/src/sys/system.h ****   public:
   21:../libDaisy/src/sys/system.h ****     /** Contains settings for initializing the System */
   22:../libDaisy/src/sys/system.h ****     struct Config
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 3
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 3
 
 
   23:../libDaisy/src/sys/system.h ****     {
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   77:../libDaisy/src/sys/system.h ****     {
   78:../libDaisy/src/sys/system.h ****         enum class Type : uint32_t
   79:../libDaisy/src/sys/system.h ****         {
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 4
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 4
 
 
   80:../libDaisy/src/sys/system.h ****             INVALID      = 0x00000000,
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   31:../libDaisy/src/hid/usb.h ****         FS_INTERNAL, /**< Internal pin */
   32:../libDaisy/src/hid/usb.h ****         FS_EXTERNAL, /**< FS External D+ pin is Pin 38 (GPIO32). FS External D- pin is Pin 37 (GPIO
   33:../libDaisy/src/hid/usb.h ****         FS_BOTH,     /**< Both */
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 5
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 5
 
 
   34:../libDaisy/src/hid/usb.h ****     };
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   40:../libDaisy/src/per/adc.h ****     };
   41:../libDaisy/src/per/adc.h **** 
   42:../libDaisy/src/per/adc.h ****     /** \brief per channel conversion speed added to fixed time based on bitdepth, etc. */
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 6
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 6
 
 
   43:../libDaisy/src/per/adc.h ****     enum ConversionSpeed
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   97:../libDaisy/src/per/adc.h ****         OVS_4,    /**< & */
   98:../libDaisy/src/per/adc.h ****         OVS_8,    /**< & */
   99:../libDaisy/src/per/adc.h ****         OVS_16,   /**< & */
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 7
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 7
 
 
  100:../libDaisy/src/per/adc.h ****         OVS_32,   /**< & */
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   38:../libDaisy/src/hid/audio.h **** 
   39:../libDaisy/src/hid/audio.h ****         /** factor for additional one-sided compensation to audio path for hardware that may
   40:../libDaisy/src/hid/audio.h ****          *  have unequal input/output ranges
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 8
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 8
 
 
   41:../libDaisy/src/hid/audio.h ****          */
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   75              	.LFE3310:
   77              		.weak	_ZN5daisy9DaisySeedD1Ev
   78              		.thumb_set _ZN5daisy9DaisySeedD1Ev,_ZN5daisy9DaisySeedD2Ev
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 9
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 9
 
 
   79 0002 00BF     		.section	.text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev,"axG",%progbits,_ZN5daisy11Midi
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   44:../libDaisy/src/hid/midi.h ****          *  @details By default this uses a shared buffer in DMA_BUFFER_MEM_SECTION,
   45:../libDaisy/src/hid/midi.h ****          *           which can only be utilized for a single UART peripheral. To
   46:../libDaisy/src/hid/midi.h ****          *           use MIDI with multiple UART peripherals, you must provide your own
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 10
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 10
 
 
   47:../libDaisy/src/hid/midi.h ****          *           buffer, allocated to a DMA-capable memory section.
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  101:../libDaisy/src/hid/midi.h ****     inline bool RxActive() { return uart_.IsListening(); }
  102:../libDaisy/src/hid/midi.h **** 
  103:../libDaisy/src/hid/midi.h ****     /** @brief This is a no-op for UART transport - Rx is via DMA callback with circular buffer */
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 11
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 11
 
 
  104:../libDaisy/src/hid/midi.h ****     inline void FlushRx() {}
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  158:../libDaisy/src/hid/midi.h ****     MidiHandler() {}
  159:../libDaisy/src/hid/midi.h ****     ~MidiHandler() {}
   91              		.loc 7 159 5 is_stmt 1 view -0
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 12
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 12
 
 
   92              		.cfi_startproc
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   48:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** {
   49:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** _GLIBCXX_BEGIN_NAMESPACE_VERSION
   50:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 13
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 13
 
 
   51:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****   /**
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  105:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****   {
  106:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****     __get_type_info,
  107:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****     __get_functor_ptr,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 14
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 14
 
 
  108:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****     __clone_functor,
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  162:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	}
  163:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 
  164:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	// Destroying a location-invariant object may still require
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 15
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 15
 
 
  165:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	// destruction.
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  219:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 
  220:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	template<typename _Class, typename _Tp>
  221:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	  static bool
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 16
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 16
 
 
  222:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	  _M_not_empty_function(_Tp _Class::* __mp)
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  260:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****   template<typename _Res, typename _Functor, typename... _ArgTypes>
  261:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****     class _Function_handler<_Res(_ArgTypes...), _Functor>
  262:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****     : public _Function_base::_Base_manager<_Functor>
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 17
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 17
 
 
  263:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****     {
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  124 000e 49F26011 		movw	r1, #37216
  245:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	_M_manager(_M_functor, _M_functor, __destroy_functor);
  125              		.loc 8 245 12 view .LVU21
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 18
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 18
 
 
  126 0012 0322     		movs	r2, #3
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   33:../libDaisy/src/util/FIFO.h ****             while((readPtr != other.bufferIn_) && (bufferIn_ < bufferSize_))
   34:../libDaisy/src/util/FIFO.h ****             {
   35:../libDaisy/src/util/FIFO.h ****                 buffer_[bufferIn_++] = other.buffer_[readPtr++];
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 19
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 19
 
 
   36:../libDaisy/src/util/FIFO.h ****                 if(readPtr >= other.bufferSize_)
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   90:../libDaisy/src/util/FIFO.h ****     {
   91:../libDaisy/src/util/FIFO.h ****         if(IsEmpty())
   92:../libDaisy/src/util/FIFO.h ****             // invalid, but better not pass a temporary T() object as a reference...
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 20
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 20
 
 
   93:../libDaisy/src/util/FIFO.h ****             return buffer_[0];
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  147:../libDaisy/src/util/FIFO.h **** 
  148:../libDaisy/src/util/FIFO.h ****     /** Returns the number of elements in the buffer that are equal to the provided value */
  149:../libDaisy/src/util/FIFO.h ****     size_t CountEqualTo(const T& element)
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 21
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 21
 
 
  150:../libDaisy/src/util/FIFO.h ****     {
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  204:../libDaisy/src/util/FIFO.h ****     {
  205:../libDaisy/src/util/FIFO.h ****         if(idx >= GetNumElements())
  206:../libDaisy/src/util/FIFO.h ****             return false;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 22
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 22
 
 
  207:../libDaisy/src/util/FIFO.h **** 
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  261:../libDaisy/src/util/FIFO.h ****             // invalid, but better not pass a temporary T() object as a reference...
  262:../libDaisy/src/util/FIFO.h ****             return buffer_[0];
  263:../libDaisy/src/util/FIFO.h **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 23
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 23
 
 
  264:../libDaisy/src/util/FIFO.h ****         size_t index = bufferOut_ + idx;
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
    8:../libDaisy/src/hid/midi_parser.h **** 
    9:../libDaisy/src/hid/midi_parser.h **** namespace daisy
   10:../libDaisy/src/hid/midi_parser.h **** {
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 24
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 24
 
 
   11:../libDaisy/src/hid/midi_parser.h **** /** @brief   Utility class for parsing raw byte streams into MIDI messages
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   18:src/main.cpp  **** static MidiUartHandler midi_uart;
   19:src/main.cpp  **** 
   20:src/main.cpp  **** /* ---- Audio DMA buffers (Q27 fixed-point, stereo interleaved) ---- */
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 25
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 25
 
 
   21:src/main.cpp  **** int32_t buf[DOUBLE_BUFSIZE];
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   75:src/main.cpp  ****  * This causes the clearing/iteration loops in xpatch_init2 to execute
   76:src/main.cpp  ****  * zero iterations, preventing memory corruption.
   77:src/main.cpp  ****  */
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 26
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 26
 
 
   78:src/main.cpp  **** asm(".global _pbss_end\n .set _pbss_end, _pbss_start");
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  132:src/main.cpp  ****     for (int i = 0; i <= SINE2TSIZE; i++) {
  133:src/main.cpp  ****         sine2t[i] = (int32_t)(2147483647.0 *
  134:src/main.cpp  ****                                sin(2.0 * 3.14159265358979323846 * i /
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 27
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 27
 
 
  135:src/main.cpp  ****                                    (double)SINE2TSIZE));
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  189:src/main.cpp  **** }
  190:src/main.cpp  **** 
  191:src/main.cpp  **** /* ---- Logging ---- */
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 28
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 28
 
 
  192:src/main.cpp  **** void LogTextMessage(const char *format, ...) {
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  246:src/main.cpp  ****     uint32_t exponent = fl.parts.exponent;
  247:src/main.cpp  ****     return (exponent << 15) | logt[mantissa & (LOGTSIZE - 1)];
  248:src/main.cpp  **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 29
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 29
 
 
  249:src/main.cpp  **** 
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  223              	.LVL10:
  256:src/main.cpp  ****         adcvalues[ch] = hw.adc.Get(ch) >> 4;
  224              		.loc 11 256 25 view .LVU50
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 30
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 30
 
 
  256:src/main.cpp  ****         adcvalues[ch] = hw.adc.Get(ch) >> 4;
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  260              		.loc 11 265 46 view .LVU69
  261 0046 D3ED017A 		vldr.32	s15, [r3, #4]
  264:src/main.cpp  ****         rbuf[i * 2]     = (int32_t)(in[0][i] * 2147483648.0f); /* Q31 */
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 31
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 31
 
 
  262              		.loc 11 264 27 view .LVU70
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  302              		.loc 11 264 27 view .LVU92
  303 0086 BEEEE07A 		vcvt.s32.f32	s14, s14, #31
  304              		.loc 11 265 27 view .LVU93
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 32
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 32
 
 
  305 008a FEEEE07A 		vcvt.s32.f32	s15, s15, #31
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  345 00c6 FEEEE07A 		vcvt.s32.f32	s15, s15, #31
  264:src/main.cpp  ****         rbuf[i * 2]     = (int32_t)(in[0][i] * 2147483648.0f); /* Q31 */
  346              		.loc 11 264 27 view .LVU116
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 33
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 33
 
 
  347 00ca 80ED0A7A 		vstr.32	s14, [r0, #40]	@ int
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  387 0104 80ED0E7A 		vstr.32	s14, [r0, #56]	@ int
  388              		.loc 11 265 9 is_stmt 1 view .LVU139
  389              		.loc 11 265 27 is_stmt 0 view .LVU140
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 34
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 34
 
 
  390 0108 C0ED0F7A 		vstr.32	s15, [r0, #60]	@ int
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  430 0140 C0ED137A 		vstr.32	s15, [r0, #76]	@ int
  263:src/main.cpp  ****         rbuf[i * 2]     = (int32_t)(in[0][i] * 2147483648.0f); /* Q31 */
  431              		.loc 11 263 5 is_stmt 1 view .LVU163
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 35
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 35
 
 
  432              	.LVL20:
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  472              	.LVL22:
  263:src/main.cpp  ****         rbuf[i * 2]     = (int32_t)(in[0][i] * 2147483648.0f); /* Q31 */
  473              		.loc 11 263 26 view .LVU186
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 36
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 36
 
 
  474 017c 35D0     		beq	.L12
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  514 01b4 19D0     		beq	.L12
  264:src/main.cpp  ****         rbuf[i * 2]     = (int32_t)(in[0][i] * 2147483648.0f); /* Q31 */
  515              		.loc 11 264 9 view .LVU209
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 37
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 37
 
 
  264:src/main.cpp  ****         rbuf[i * 2]     = (int32_t)(in[0][i] * 2147483648.0f); /* Q31 */
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  268:src/main.cpp  ****     /* Call the Axoloti patch DSP */
  269:src/main.cpp  ****     PatchProcess(rbuf, buf);
  555              		.loc 11 269 5 is_stmt 1 view .LVU231
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 38
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 38
 
 
  556              		.loc 11 269 17 is_stmt 0 view .LVU232
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  595 0222 66EEA76A 		vmul.f32	s13, s13, s15
  596 0226 65EEA75A 		vmul.f32	s11, s11, s15
  597              		.loc 11 276 43 view .LVU251
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 39
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 39
 
 
  598 022a 27EE277A 		vmul.f32	s14, s14, s15
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  274:src/main.cpp  ****     for (size_t i = 0; i < size; i++) {
  638              		.loc 11 274 26 view .LVU274
  639 0264 00F0FB80 		beq	.L9
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 40
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 40
 
 
  275:src/main.cpp  ****         out[0][i] = (float)buf[i * 2] * inv_q31;
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  680              		.loc 11 276 19 is_stmt 0 view .LVU296
  681 02ac 83ED047A 		vstr.32	s14, [r3, #16]
  274:src/main.cpp  ****     for (size_t i = 0; i < size; i++) {
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 41
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 41
 
 
  682              		.loc 11 274 5 is_stmt 1 view .LVU297
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  722 02f0 27EE277A 		vmul.f32	s14, s14, s15
  275:src/main.cpp  ****         out[0][i] = (float)buf[i * 2] * inv_q31;
  723              		.loc 11 275 19 view .LVU318
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 42
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 42
 
 
  724 02f4 C2ED066A 		vstr.32	s13, [r2, #24]
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  764 0334 B8EEC77A 		vcvt.f32.s32	s14, s14
  275:src/main.cpp  ****         out[0][i] = (float)buf[i * 2] * inv_q31;
  765              		.loc 11 275 39 view .LVU340
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 43
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 43
 
 
  766 0338 66EEA76A 		vmul.f32	s13, s13, s15
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  275:src/main.cpp  ****         out[0][i] = (float)buf[i * 2] * inv_q31;
  806              		.loc 11 275 21 view .LVU362
  807 0376 F8EEC76A 		vcvt.f32.s32	s13, s14
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 44
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 44
 
 
  808              		.loc 11 276 21 view .LVU363
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  851 03c8 C2ED0B6A 		vstr.32	s13, [r2, #44]
  852              		.loc 11 276 9 is_stmt 1 view .LVU380
  853              		.loc 11 276 19 is_stmt 0 view .LVU381
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 45
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 45
 
 
  854 03cc 83ED0B7A 		vstr.32	s14, [r3, #44]
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  893 0408 66EEA76A 		vmul.f32	s13, s13, s15
  894              		.loc 11 276 43 view .LVU402
  895 040c 27EE277A 		vmul.f32	s14, s14, s15
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 46
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 46
 
 
  275:src/main.cpp  ****         out[0][i] = (float)buf[i * 2] * inv_q31;
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  936 044a B8EEC77A 		vcvt.f32.s32	s14, s14
  275:src/main.cpp  ****         out[0][i] = (float)buf[i * 2] * inv_q31;
  937              		.loc 11 275 39 discriminator 2 view .LVU425
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 47
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 47
 
 
  938 044e 66EEA76A 		vmul.f32	s13, s13, s15
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  980 0470 FFF7FEFF 		bl	_Z12PatchProcessPlS_
  981              	.LVL49:
  273:src/main.cpp  ****     for (size_t i = 0; i < size; i++) {
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 48
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 48
 
 
  982              		.loc 11 273 5 is_stmt 1 view .LVU441
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1019 049e 00BF     		.align	2
  1020              	.L106:
  1021 04a0 00000000 		.word	.LANCHOR3
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 49
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 49
 
 
  1022 04a4 00000000 		.word	.LANCHOR2
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1067              	.LBE555:
  141:../libDaisy/src/hid/midi.h **** };
  1068              		.loc 7 141 5 view .LVU472
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 50
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 50
 
 
  1069 000a 7047     		bx	lr
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  201:../libDaisy/src/hid/midi.h ****             parser_.Reset();
  202:../libDaisy/src/hid/midi.h ****             transport_.FlushRx();
  203:../libDaisy/src/hid/midi.h ****             StartReceive();
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 51
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 51
 
 
  204:../libDaisy/src/hid/midi.h ****         }
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  258:../libDaisy/src/hid/midi.h ****     static void ParseCallback(uint8_t* data, size_t size, void* context)
  1084              		.loc 7 258 17 is_stmt 1 view -0
  1085              		.cfi_startproc
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 52
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 52
 
 
  1086              		@ args = 0, pretend = 0, frame = 144
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  320:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 
  321:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****     public:
  322:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****       typedef _Res result_type;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 53
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 53
 
 
  323:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  377:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        */
  378:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****       template<typename _Functor,
  379:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	       typename = _Requires<__not_<is_same<_Functor, function>>, void>,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 54
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 54
 
 
  380:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	       typename = _Requires<_Callable<_Functor>, void>>
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  434:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	    _M_invoker = nullptr;
  435:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	  }
  436:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 	return *this;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 55
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 55
 
 
  437:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****       }
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  491:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        *  @brief Determine if the %function wrapper has a target.
  492:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        *
  493:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        *  @return @c true when this %function object contains a target,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 56
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 56
 
 
  494:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        *  or @c false when it is empty.
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  527:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        *  @brief Access the stored target function object.
  528:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        *
  529:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        *  @return Returns a pointer to the stored target function object,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 57
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 57
 
 
  530:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****        *  if @c typeid(_Functor).equals(target_type()); otherwise, a NULL
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  584:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 
  585:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****   // Out-of-line member definitions.
  586:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****   template<typename _Res, typename... _ArgTypes>
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 58
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 58
 
 
  587:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h ****     function<_Res(_ArgTypes...)>::
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1153              	.LVL61:
  1154              		.loc 8 622 14 view .LVU487
  1155 002c 9847     		blx	r3
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 59
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 59
 
 
  1156              	.LVL62:
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  175:../libDaisy/src/util/FIFO.h ****         return size_t(numElements);
  1202              		.loc 9 175 28 is_stmt 0 view .LVU499
  1203 004a D5F8C410 		ldr	r1, [r5, #196]
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 60
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 60
 
 
  173:../libDaisy/src/util/FIFO.h ****         if(numElements < 0)
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1248              	.LBB590:
  1249              	.LBB587:
  1250              	.LBB586:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 61
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 61
 
 
   55:../libDaisy/src/util/FIFO.h ****             return true;
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   88:src/main.cpp  ****     sdram_heap_end = end_addr;
  1300              		.loc 11 88 5 view .LVU519
   89:src/main.cpp  ****     sdram_last_alloc = nullptr;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 62
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 62
 
 
  1301              		.loc 11 89 20 is_stmt 0 view .LVU520
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1346              		.loc 11 93 33 is_stmt 1 view -0
  1347              		.cfi_startproc
  1348              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 63
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 63
 
 
  1349              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1385 001a 7047     		bx	lr
  1386              	.LVL80:
  1387              	.L140:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 64
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 64
 
 
   97:src/main.cpp  ****     }
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1433              		.loc 11 108 24 view .LVU560
  1434 000e 0260     		str	r2, [r0]
  109:src/main.cpp  ****     }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 65
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 65
 
 
  1435              		.loc 11 109 9 is_stmt 1 view .LVU561
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1485              		.syntax unified
  1486              		.thumb
  1487              		.thumb_func
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 66
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 66
 
 
  1489              	LogTextMessage:
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1540              		.syntax unified
  1541              		.thumb
  1542              		.thumb_func
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 67
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 67
 
 
  1544              	MidiInMsgHandler:
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1589              		.loc 11 207 16 view .LVU585
  208:src/main.cpp  ****     midi_uart.SendMessage(data, 1);
  1590              		.loc 11 208 5 view .LVU586
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 68
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 68
 
 
  206:src/main.cpp  ****     (void)dev; (void)port;
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1631              		.loc 7 107 62 is_stmt 0 view .LVU600
  1632 0018 FFF7FEFF 		bl	_ZN5daisy11UartHandler6PollTxEPhj
  1633              	.LVL92:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 69
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 69
 
 
  107:../libDaisy/src/hid/midi.h **** 
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1681              	.LBB604:
  107:../libDaisy/src/hid/midi.h **** 
  1682              		.loc 7 107 62 view .LVU610
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 70
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 70
 
 
  1683 0008 0222     		movs	r2, #2
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1725              		@ sp needed
  1726 0020 5DF804FB 		ldr	pc, [sp], #4
  1727              	.L163:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 71
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 71
 
 
  1728              		.align	2
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  1775              	.LBB614:
  107:../libDaisy/src/hid/midi.h **** 
  1776              		.loc 7 107 62 view .LVU632
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 72
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 72
 
 
  1777 000c 01A9     		add	r1, sp, #4
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  223:src/main.cpp  **** 
  1820              		.loc 11 223 1 view .LVU644
  1821 0026 00BF     		.align	2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 73
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 73
 
 
  1822              	.L166:
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  107:../libDaisy/src/hid/midi.h **** 
  1867              		.loc 7 107 62 view .LVU656
  1868 000a 00BF     		.align	2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 74
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 74
 
 
  1869              	.L169:
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  237:src/main.cpp  **** }
  1920              		.loc 11 237 5 view .LVU664
  238:src/main.cpp  **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 75
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 75
 
 
  1921              		.loc 11 238 1 is_stmt 0 view .LVU665
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  248:src/main.cpp  **** 
  1965              		.loc 11 248 1 view .LVU678
  1966 0014 7047     		bx	lr
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 76
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 76
 
 
  1967              	.L177:
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2014              		.loc 11 133 19 view .LVU685
  2015 000e 7B4D     		ldr	r5, .L220+100
  2016              	.LBE713:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 77
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 77
 
 
  2017              	.LBE712:
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   88:src/main.cpp  ****     sdram_heap_end = end_addr;
  2057              		.loc 11 88 5 view .LVU696
   90:src/main.cpp  **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 78
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 78
 
 
  2058              		.loc 11 90 22 is_stmt 0 view .LVU697
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  132:src/main.cpp  ****         sine2t[i] = (int32_t)(2147483647.0 *
  2096              		.loc 11 132 5 view .LVU712
  132:src/main.cpp  ****         sine2t[i] = (int32_t)(2147483647.0 *
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 79
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 79
 
 
  2097              		.loc 11 132 23 view .LVU713
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2137 007e 2B80     		strh	r3, [r5]	@ movhi
  139:src/main.cpp  ****         windowt[i] = (int16_t)(16383.0 *
  2138              		.loc 11 139 5 is_stmt 1 view .LVU728
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 80
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 80
 
 
  2139              	.LVL128:
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2178              	.LBB718:
  158:src/main.cpp  ****     }
  2179              		.loc 11 158 9 is_stmt 1 view .LVU744
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 81
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 81
 
 
  158:src/main.cpp  ****     }
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2218 00e8 9FED357B 		vldr.64	d7, .L220+40
  156:src/main.cpp  ****             phase_inc = 2147483647.0;
  2219              		.loc 11 156 9 view .LVU761
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 82
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 82
 
 
  2220 00ec 9FED366B 		vldr.64	d6, .L220+48
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2258 0116 0124     		movs	r4, #1
  163:src/main.cpp  ****     }
  2259              		.loc 11 163 17 view .LVU778
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 83
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 83
 
 
  2260 0118 2B80     		strh	r3, [r5]	@ movhi
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2299 014c 0023     		movs	r3, #0
  2300 014e 0224     		movs	r4, #2
  2301              	.LVL146:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 84
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 84
 
 
  169:src/main.cpp  ****                               (double)LOGTSIZEN);
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  169:src/main.cpp  ****                               (double)LOGTSIZEN);
  2341              		.loc 11 169 19 view .LVU809
  2342 017a BCEEC77B 		vcvt.u32.f64	s14, d7
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 85
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 85
 
 
  2343 017e 17EE102A 		vmov	r2, s14	@ int
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2394 021c 00000000 		.word	.LANCHOR5
  2395              	.LVL151:
  2396              	.L217:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 86
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 86
 
 
  2397              	.LBB731:
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2436 0256 30D0     		beq	.L193
  2437              	.L194:
  2438              	.LBB734:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 87
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 87
 
 
  175:src/main.cpp  ****         double sinc_val;
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  181:src/main.cpp  ****         }
  2475              		.loc 11 181 20 view .LVU846
  2476 0290 9FED850B 		vldr.64	d0, .L222+40
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 88
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 88
 
 
  177:src/main.cpp  ****             sinc_val = 1.0;
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2517              	.LBB746:
  2518              	.LBB747:
  2519              	.LBB748:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 89
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 89
 
 
  2520              	.LBB749:
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   51:../libDaisy/src/per/gpio.h ****         LOW,
   52:../libDaisy/src/per/gpio.h ****         MEDIUM,
   53:../libDaisy/src/per/gpio.h ****         HIGH,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 90
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 90
 
 
   54:../libDaisy/src/per/gpio.h ****         VERY_HIGH,
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2546 02c8 08AE     		add	r6, sp, #32
  2547              	.LBE830:
  2548              	.LBB831:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 91
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 91
 
 
  2549              	.LBB832:
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   72:../libDaisy/src/per/gpio.h ****     };
   73:../libDaisy/src/per/gpio.h **** 
   74:../libDaisy/src/per/gpio.h ****     GPIO() {}
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 92
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 92
 
 
  2587              		.loc 12 74 5 view .LVU879
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   44:../libDaisy/src/daisy_core.h **** #define S322F_SCALE 4.6566129e-10f    /**< 1 / (2** 31) */
   45:../libDaisy/src/daisy_core.h **** #define F2S32_SCALE 2147483647.f      /**< (2 ** 31) - 1 */
   46:../libDaisy/src/daisy_core.h **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 93
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 93
 
 
   47:../libDaisy/src/daisy_core.h **** 
@@ -5578,7 +5578,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  101:../libDaisy/src/daisy_core.h **** {
  102:../libDaisy/src/daisy_core.h ****     return (float)x * S82F_SCALE;
  103:../libDaisy/src/daisy_core.h **** }
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 94
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 94
 
 
  104:../libDaisy/src/daisy_core.h **** 
@@ -5638,7 +5638,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  158:../libDaisy/src/daisy_core.h ****     return (float)x * S322F_SCALE;
  159:../libDaisy/src/daisy_core.h **** }
  160:../libDaisy/src/daisy_core.h **** /**
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 95
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 95
 
 
  161:../libDaisy/src/daisy_core.h ****     Converts float to Signed 24-bit
@@ -5698,7 +5698,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2607              	.LBE764:
  2608              	.LBE767:
  2609              	.LBE770:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 96
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 96
 
 
  2610              	.LBE814:
@@ -5758,7 +5758,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2661 02fa ADF86830 		strh	r3, [sp, #104]	@ movhi
  2662 02fe ADF87C30 		strh	r3, [sp, #124]	@ movhi
  2663              	.LBE779:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 97
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 97
 
 
  2664              	.LBE778:
@@ -5818,7 +5818,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2713              	.LBE820:
  2714              	.LBB821:
  2715              		.loc 11 313 34 view .LVU902
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 98
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 98
 
 
  2716 0306 1968     		ldr	r1, [r3]
@@ -5878,7 +5878,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   31:../libDaisy/src/per/adc.h **** {
  2762              		.loc 5 31 8 view .LVU914
  2763              	.LBB864:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 99
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 99
 
 
  311:src/main.cpp  ****         for (int i = 0; i < NUM_ADC_CHANNELS; i++) {
@@ -5938,7 +5938,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  312:src/main.cpp  ****             adc_cfg[i].InitSingle(adc_pins[i]);
  2813              		.loc 11 312 27 view .LVU922
  2814              	.LBE826:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 100
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 100
 
 
  314:src/main.cpp  ****         }
@@ -5998,7 +5998,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   10:../libDaisy/src/per/uart.h **** 
   11:../libDaisy/src/per/uart.h **** #if !UNIT_TEST
   12:../libDaisy/src/per/uart.h **** #include "util/hal_map.h"
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 101
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 101
 
 
   13:../libDaisy/src/per/uart.h **** #endif
@@ -6058,7 +6058,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   67:../libDaisy/src/per/uart.h ****         {
   68:../libDaisy/src/per/uart.h ****             BITS_7,
   69:../libDaisy/src/per/uart.h ****             BITS_8,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 102
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 102
 
 
   70:../libDaisy/src/per/uart.h ****             BITS_9,
@@ -6118,7 +6118,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2882 0362 1190     		str	r0, [sp, #68]
  2883 0364 1046     		mov	r0, r2
  2884              	.LVL173:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 103
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 103
 
 
   75:../libDaisy/src/hid/midi.h ****         uart_config.pin_config.rx = config.rx;
@@ -6178,7 +6178,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2925              		.loc 7 72 9 view .LVU959
   75:../libDaisy/src/hid/midi.h ****         uart_config.pin_config.rx = config.rx;
  2926              		.loc 7 75 9 view .LVU960
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 104
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 104
 
 
   76:../libDaisy/src/hid/midi.h ****         uart_config.pin_config.tx = config.tx;
@@ -6238,7 +6238,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   30:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****  * Permission to use, copy, modify, distribute and sell this software
   31:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****  * and its documentation for any purpose is hereby granted without fee,
   32:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****  * provided that the above copyright notice appear in all copies and
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 105
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 105
 
 
   33:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****  * that both that copyright notice and this permission notice appear
@@ -6298,7 +6298,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   87:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   template<typename _Tp, typename _Up>
   88:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     _GLIBCXX14_CONSTEXPR
   89:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     inline int
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 106
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 106
 
 
   90:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     __memcmp(const _Tp* __first1, const _Up* __first2, size_t __num)
@@ -6358,7 +6358,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  144:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *  @return   Nothing.
  145:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *
  146:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *  This function swaps the values pointed to by two iterators, not the
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 107
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 107
 
 
  147:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *  iterators themselves.
@@ -6418,7 +6418,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  201:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     swap_ranges(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
  202:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 		_ForwardIterator2 __first2)
  203:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     {
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 108
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 108
 
 
  204:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****       // concept requirements
@@ -6478,7 +6478,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  258:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****       //return  __a < __b ? __b : __a;
  259:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****       if (__a < __b)
  260:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 	return __b;
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 109
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 109
 
 
  261:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****       return __a;
@@ -6538,7 +6538,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  315:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     { return __it; }
  316:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 
  317:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   // Reverse the __niter_base transformation to get a
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 110
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 110
 
 
  318:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   // __normal_iterator back again (this assumes that __normal_iterator
@@ -6598,7 +6598,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  372:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****       template<typename _II, typename _OI>
  373:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 	_GLIBCXX20_CONSTEXPR
  374:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 	static _OI
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 111
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 111
 
 
  375:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 	__copy_m(_II __first, _II __last, _OI __result)
@@ -6658,7 +6658,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  429:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     };
  430:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 
  431:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   // Helpers for streambuf iterators (either istream or ostream).
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 112
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 112
 
 
  432:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   // NB: avoid including <iosfwd>, relatively large.
@@ -6718,7 +6718,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  486:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 		   _GLIBCXX_STD_C::_Deque_iterator<_Tp, _Ref, _Ptr>,
  487:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 		   _OI);
  488:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 113
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 113
 
 
  489:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   template<bool _IsMove,
@@ -6778,7 +6778,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  543:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *  @param  __first  An input iterator.
  544:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *  @param  __last   An input iterator.
  545:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *  @param  __result An output iterator.
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 114
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 114
 
 
  546:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *  @return   result + (last - first)
@@ -6838,7 +6838,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  600:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 
  601:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****       return std::__copy_move_a<true>(std::__miter_base(__first),
  602:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 				      std::__miter_base(__last), __result);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 115
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 115
 
 
  603:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     }
@@ -6898,7 +6898,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  657:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   template<>
  658:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     struct __copy_move_backward<true, false, random_access_iterator_tag>
  659:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     {
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 116
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 116
 
 
  660:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****       template<typename _BI1, typename _BI2>
@@ -6958,7 +6958,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  714:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   template<bool _IsMove, typename _BI1, typename _BI2>
  715:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     _GLIBCXX20_CONSTEXPR
  716:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     inline _BI2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 117
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 117
 
 
  717:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     __copy_move_backward_a1(_BI1 __first, _BI1 __last, _BI2 __result)
@@ -7018,7 +7018,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  771:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     __copy_move_backward_a(
  772:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 		const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
  773:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 		const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 118
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 118
 
 
  774:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 		const ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>&);
@@ -7078,7 +7078,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  828:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****    *  that the start of the output range may overlap [first,last).
  829:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   */
  830:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****   template<typename _BI1, typename _BI2>
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 119
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 119
 
 
  831:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****     _GLIBCXX20_CONSTEXPR
@@ -7138,7 +7138,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  885:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h ****       if (std::is_constant_evaluated())
  886:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 	{
  887:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 	  for (; __first != __last; ++__first)
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 120
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 120
 
 
  888:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 	    *__first = __tmp;
@@ -7198,7 +7198,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2947              		.loc 15 913 5 view .LVU970
  2948              	.LBB846:
  2949              	.LBI846:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 121
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 121
 
 
  868:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h **** 	      const _Tp& __value)
@@ -7258,7 +7258,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  2994              	.LBE852:
  2995              	.LBB853:
  2996              	.LBI853:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 122
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 122
 
 
   20:../libDaisy/src/hid/midi_parser.h **** 
@@ -7318,7 +7318,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3038              	.LBE871:
  3039              	.LBE872:
  3040              	.LBE873:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 123
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 123
 
 
  3041              	.LBE875:
@@ -7378,7 +7378,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3067              	.LBE880:
  3068              		.loc 11 345 18 view .LVU1006
  3069 03ca 4348     		ldr	r0, .L222+88
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 124
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 124
 
 
  3070              	.LBB881:
@@ -7438,7 +7438,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3110              	.L199:
  199:../libDaisy/src/hid/midi.h ****         {
  3111              		.loc 7 199 9 view .LVU1021
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 125
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 125
 
 
  3112              	.LBE884:
@@ -7498,7 +7498,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3152              	.LBB912:
  3153              	.LBB906:
  3154              	.LBB901:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 126
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 126
 
 
  3155              	.LBB897:
@@ -7558,7 +7558,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3200              	.LBB926:
  351:src/main.cpp  ****             /* Convert Daisy MidiEvent to Axoloti's raw MIDI bytes */
  3201              		.loc 11 351 13 is_stmt 1 view .LVU1047
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 127
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 127
 
 
  3202              	.LBB914:
@@ -7618,7 +7618,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3247              	.LBB916:
  3248              	.LBB910:
  3249              	.LBB904:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 128
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 128
 
 
  3250              	.LBB900:
@@ -7678,7 +7678,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3296              		.loc 11 158 19 view .LVU1064
  3297 044c 45F8043F 		str	r3, [r5, #4]!
  3298              	.LBE722:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 129
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 129
 
 
  152:src/main.cpp  ****         double note = (double)(i - 128) + 64.0; /* offset so index 128 = MIDI 64 */
@@ -7738,7 +7738,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3340              	.LVL198:
   98:../libDaisy/src/hid/midi.h **** 
  3341              		.loc 7 98 5 view .LVU1078
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 130
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 130
 
 
  3342 0478 D0E7     		b	.L203
@@ -7798,7 +7798,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3393              		@ args = 0, pretend = 0, frame = 0
  3394              		@ frame_needed = 0, uses_anonymous_args = 0
  3395              	.LBB1024:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 131
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 131
 
 
  3396              	.LBI1024:
@@ -7858,7 +7858,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   43:../libDaisy/src/per/qspi.h ****          *
   44:../libDaisy/src/per/qspi.h ****          *  \param GOOD - No errors have been reported.
   45:../libDaisy/src/per/qspi.h ****          *  \param E_HAL_ERROR - HAL code did not return HAL_OK.
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 132
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 132
 
 
   46:../libDaisy/src/per/qspi.h ****          *  \param E_SWITCHING_MODES - An error was encountered while switching QSPI peripheral mod
@@ -7918,7 +7918,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  100:../libDaisy/src/per/qspi.h ****         \return Result::OK or Result::ERR
  101:../libDaisy/src/per/qspi.h ****         */
  102:../libDaisy/src/per/qspi.h ****     Result Init(const Config& config);
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 133
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 133
 
 
  103:../libDaisy/src/per/qspi.h **** 
@@ -7978,7 +7978,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  157:../libDaisy/src/per/qspi.h **** 
  158:../libDaisy/src/per/qspi.h ****     /** Returns a pointer to the actual memory used
  159:../libDaisy/src/per/qspi.h ****      *  The memory at this address is read-only
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 134
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 134
 
 
  160:../libDaisy/src/per/qspi.h ****      *  to write to it use the Write function.
@@ -8038,7 +8038,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3450              		.loc 6 87 5 is_stmt 1 view .LVU1098
   87:../libDaisy/src/hid/audio.h ****     ~AudioHandle() {}
  3451              		.loc 6 87 5 is_stmt 0 view .LVU1099
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 135
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 135
 
 
  3452              	.LBE1039:
@@ -8098,7 +8098,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   44:../libDaisy/src/per/dac.h ****      ** callback to fill the buffer when it is ready for more samples.
   45:../libDaisy/src/per/dac.h ****      ***/
   46:../libDaisy/src/per/dac.h ****     enum class Mode
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 136
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 136
 
 
   47:../libDaisy/src/per/dac.h ****     {
@@ -8158,7 +8158,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   68:../libDaisy/src/per/gpio.h ****         : pin(), mode(Mode::INPUT), pull(Pull::NOPULL), speed(Speed::LOW)
  3475              		.loc 12 68 9 view .LVU1107
  3476              	.LBB1050:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 137
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 137
 
 
  3477              	.LBB1051:
@@ -8218,7 +8218,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3526              		.loc 13 204 15 view .LVU1119
  3527              		.loc 13 204 15 is_stmt 0 view .LVU1120
  3528              	.LBE1082:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 138
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 138
 
 
  3529              	.LBE1081:
@@ -8278,7 +8278,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
   46:../libDaisy/src/per/sai.h ****     /** Contains settings for initialising an SAI Interface */
   47:../libDaisy/src/per/sai.h ****     struct Config
   48:../libDaisy/src/per/sai.h ****     {
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 139
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 139
 
 
   49:../libDaisy/src/per/sai.h ****         /** Specifies the internal peripheral to use (mapped to different hardware pins) */
@@ -8338,7 +8338,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  103:../libDaisy/src/per/sai.h ****     enum class Result
  104:../libDaisy/src/per/sai.h ****     {
  105:../libDaisy/src/per/sai.h ****         OK,
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 140
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 140
 
 
  106:../libDaisy/src/per/sai.h ****         ERR,
@@ -8398,7 +8398,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3584 0012 8365     		str	r3, [r0, #88]
  3585              	.LBB1097:
  3586              	.LBB1040:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 141
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 141
 
 
  3587              	.LBB1041:
@@ -8458,7 +8458,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3638              	.LBB1073:
  3639              	.LBB1071:
  3640              	.LBB1069:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 142
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 142
 
 
  3641              	.LBB1067:
@@ -8518,7 +8518,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3691              	.LBE1090:
  3692              	.LBE1092:
  3693              	.LBE1105:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 143
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 143
 
 
  3694              	.LBE1108:
@@ -8578,7 +8578,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3730              	.LBE1124:
  3731              	.LBE1123:
  3732              	.LBE1164:
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 144
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 144
 
 
  3733              	.LBE1168:
@@ -8638,7 +8638,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3782              	.LBB1153:
  3783              	.LBB1154:
  240:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/std_function.h **** 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 145
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 145
 
 
  3784              		.loc 8 240 42 view .LVU1150
@@ -8698,7 +8698,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3830              	.LBB1138:
   15:../libDaisy/src/util/FIFO.h ****     {
  3831              		.loc 9 15 75 is_stmt 0 view .LVU1158
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 146
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 146
 
 
  3832 0068 C5F8C840 		str	r4, [r5, #200]
@@ -8758,7 +8758,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3879              		.align	2
  3880              	.L226:
  3881 0080 00000000 		.word	.LANCHOR0
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 147
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 147
 
 
  3882 0084 00000000 		.word	_ZL9midi_uart
@@ -8818,7 +8818,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  3945 0000 00000000 		.space	4
  3946              		.section	.bss._ZL2hw,"aw",%nobits
  3947              		.align	2
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 148
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 148
 
 
  3948              		.set	.LANCHOR0,. + 0
@@ -8878,7 +8878,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  4006 0000 00000000 		.space	128
  4006      00000000 
  4006      00000000 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 149
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 149
 
 
  4006      00000000 
@@ -8938,7 +8938,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  4065      00000000 
  4065      00000000 
  4065      00000000 
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 150
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 150
 
 
  4065      00000000 
@@ -8998,7 +8998,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  4111 0006 00       		.byte	0
  4112 0007 07       		.byte	7
  4113 0008 00       		.byte	0
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 151
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 151
 
 
  4114 0009 06       		.byte	6
@@ -9058,7 +9058,7 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  4168              		.file 56 "./src/axoloti_oscs.h"
  4169              		.file 57 "./src/axoloti.h"
  4170              		.file 58 "./src/ui_stubs.h"
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 152
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 152
 
 
  4171              		.file 59 "./src/axoloti_compat.h"
@@ -9077,141 +9077,141 @@ ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 1
  4184              		.file 72 "src/patch_wrapper.h"
  4185              		.file 73 "../libDaisy/src/sys/dma.h"
  4186              		.file 74 "<built-in>"
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 153
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 153
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.cpp
                  .bss._pbss_start:0000000000000000 _pbss_end
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3975   .bss._pbss_start:0000000000000000 _pbss_start
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3975   .bss._pbss_start:0000000000000000 _pbss_start
           .bss.__ctor_array_start:0000000000000000 __ctor_array_end
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3963   .bss.__ctor_array_start:0000000000000000 __ctor_array_start
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3963   .bss.__ctor_array_start:0000000000000000 __ctor_array_start
           .bss.__dtor_array_start:0000000000000000 __dtor_array_end
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3969   .bss.__dtor_array_start:0000000000000000 __dtor_array_start
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:26     .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:33     .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 _ZN5daisy9DaisySeedD2Ev
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:33     .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 _ZN5daisy9DaisySeedD1Ev
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:80     .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:87     .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev:0000000000000000 _ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:87     .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev:0000000000000000 _ZN5daisy11MidiHandlerINS_17MidiUartTransportEED1Ev
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:172    .text._ZL13AudioCallbackPKPKfPPfj:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:178    .text._ZL13AudioCallbackPKPKfPPfj:0000000000000000 _ZL13AudioCallbackPKPKfPPfj
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:837    .text._ZL13AudioCallbackPKPKfPPfj:00000000000003a4 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:844    .text._ZL13AudioCallbackPKPKfPPfj:00000000000003b8 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1021   .text._ZL13AudioCallbackPKPKfPPfj:00000000000004a0 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1028   .text._ZN5daisy17MidiUartTransport10rxCallbackEPhjPvNS_11UartHandler6ResultE:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1035   .text._ZN5daisy17MidiUartTransport10rxCallbackEPhjPvNS_11UartHandler6ResultE:0000000000000000 _ZN5daisy17MidiUartTransport10rxCallbackEPhjPvNS_11UartHandler6ResultE
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1074   .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEE13ParseCallbackEPhjPv:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1081   .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEE13ParseCallbackEPhjPv:0000000000000000 _ZN5daisy11MidiHandlerINS_17MidiUartTransportEE13ParseCallbackEPhjPv
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1285   .text.sdram_init:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1292   .text.sdram_init:0000000000000000 sdram_init
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1329   .text.sdram_init:0000000000000018 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1336   .text.sdram_malloc:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1343   .text.sdram_malloc:0000000000000000 sdram_malloc
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1395   .text.sdram_malloc:0000000000000020 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1402   .text.sdram_free:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1409   .text.sdram_free:0000000000000000 sdram_free
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1443   .text.sdram_free:0000000000000014 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1449   .text.sdram_get_free:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1456   .text.sdram_get_free:0000000000000000 sdram_get_free
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1476   .text.sdram_get_free:000000000000000c $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1482   .text.LogTextMessage:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1489   .text.LogTextMessage:0000000000000000 LogTextMessage
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1517   .text.midi_init:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1524   .text.midi_init:0000000000000000 midi_init
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1537   .text.MidiInMsgHandler:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1544   .text.MidiInMsgHandler:0000000000000000 MidiInMsgHandler
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1574   .text.MidiSend1:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1581   .text.MidiSend1:0000000000000000 MidiSend1
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1646   .text.MidiSend1:0000000000000024 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3957   .bss._ZL9midi_uart:0000000000000000 _ZL9midi_uart
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1651   .text.MidiSend2:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1658   .text.MidiSend2:0000000000000000 MidiSend2
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1730   .text.MidiSend2:0000000000000024 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1735   .text.MidiSend3:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1742   .text.MidiSend3:0000000000000000 MidiSend3
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1823   .text.MidiSend3:0000000000000028 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1828   .text.MidiSendSysEx:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1835   .text.MidiSendSysEx:0000000000000000 MidiSendSysEx
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1870   .text.MidiSendSysEx:000000000000000c $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1878   .text.MidiGetOutputBufferPending:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1885   .text.MidiGetOutputBufferPending:0000000000000000 MidiGetOutputBufferPending
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1904   .text.MidiGetOutputBufferAvailable:0000000000000000 $t
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 154
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3969   .bss.__dtor_array_start:0000000000000000 __dtor_array_start
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:26     .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:33     .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 _ZN5daisy9DaisySeedD2Ev
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:33     .text._ZN5daisy9DaisySeedD2Ev:0000000000000000 _ZN5daisy9DaisySeedD1Ev
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:80     .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:87     .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev:0000000000000000 _ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:87     .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEED2Ev:0000000000000000 _ZN5daisy11MidiHandlerINS_17MidiUartTransportEED1Ev
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:172    .text._ZL13AudioCallbackPKPKfPPfj:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:178    .text._ZL13AudioCallbackPKPKfPPfj:0000000000000000 _ZL13AudioCallbackPKPKfPPfj
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:837    .text._ZL13AudioCallbackPKPKfPPfj:00000000000003a4 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:844    .text._ZL13AudioCallbackPKPKfPPfj:00000000000003b8 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1021   .text._ZL13AudioCallbackPKPKfPPfj:00000000000004a0 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1028   .text._ZN5daisy17MidiUartTransport10rxCallbackEPhjPvNS_11UartHandler6ResultE:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1035   .text._ZN5daisy17MidiUartTransport10rxCallbackEPhjPvNS_11UartHandler6ResultE:0000000000000000 _ZN5daisy17MidiUartTransport10rxCallbackEPhjPvNS_11UartHandler6ResultE
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1074   .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEE13ParseCallbackEPhjPv:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1081   .text._ZN5daisy11MidiHandlerINS_17MidiUartTransportEE13ParseCallbackEPhjPv:0000000000000000 _ZN5daisy11MidiHandlerINS_17MidiUartTransportEE13ParseCallbackEPhjPv
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1285   .text.sdram_init:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1292   .text.sdram_init:0000000000000000 sdram_init
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1329   .text.sdram_init:0000000000000018 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1336   .text.sdram_malloc:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1343   .text.sdram_malloc:0000000000000000 sdram_malloc
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1395   .text.sdram_malloc:0000000000000020 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1402   .text.sdram_free:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1409   .text.sdram_free:0000000000000000 sdram_free
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1443   .text.sdram_free:0000000000000014 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1449   .text.sdram_get_free:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1456   .text.sdram_get_free:0000000000000000 sdram_get_free
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1476   .text.sdram_get_free:000000000000000c $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1482   .text.LogTextMessage:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1489   .text.LogTextMessage:0000000000000000 LogTextMessage
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1517   .text.midi_init:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1524   .text.midi_init:0000000000000000 midi_init
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1537   .text.MidiInMsgHandler:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1544   .text.MidiInMsgHandler:0000000000000000 MidiInMsgHandler
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1574   .text.MidiSend1:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1581   .text.MidiSend1:0000000000000000 MidiSend1
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1646   .text.MidiSend1:0000000000000024 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3957   .bss._ZL9midi_uart:0000000000000000 _ZL9midi_uart
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1651   .text.MidiSend2:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1658   .text.MidiSend2:0000000000000000 MidiSend2
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1730   .text.MidiSend2:0000000000000024 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1735   .text.MidiSend3:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1742   .text.MidiSend3:0000000000000000 MidiSend3
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1823   .text.MidiSend3:0000000000000028 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1828   .text.MidiSendSysEx:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1835   .text.MidiSendSysEx:0000000000000000 MidiSendSysEx
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1870   .text.MidiSendSysEx:000000000000000c $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1878   .text.MidiGetOutputBufferPending:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1885   .text.MidiGetOutputBufferPending:0000000000000000 MidiGetOutputBufferPending
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1904   .text.MidiGetOutputBufferAvailable:0000000000000000 $t
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 154
 
 
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1911   .text.MidiGetOutputBufferAvailable:0000000000000000 MidiGetOutputBufferAvailable
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1930   .text.FastLog:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1937   .text.FastLog:0000000000000000 FastLog
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1970   .text.FastLog:0000000000000018 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1975   .text.startup.main:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:1982   .text.startup.main:0000000000000000 main
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:2361   .text.startup.main:0000000000000198 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4090   .bss.sine2t:0000000000000000 sine2t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3998   .bss.blept:0000000000000000 blept
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:2399   .text.startup.main:0000000000000220 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3346   .text.startup.main:0000000000000480 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3383   .text.startup._GLOBAL__sub_I_buf:0000000000000000 $t
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3389   .text.startup._GLOBAL__sub_I_buf:0000000000000000 _GLOBAL__sub_I_buf
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3881   .text.startup._GLOBAL__sub_I_buf:0000000000000080 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3893   .init_array:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4058   .bss.logt:0000000000000000 logt
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4024   .bss.expt:0000000000000000 expt
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4071   .bss.pitcht:0000000000000000 pitcht
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4097   .bss.windowt:0000000000000000 windowt
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3980   .bss._sdram_dyn_end:0000000000000000 _sdram_dyn_end
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3985   .bss._sdram_dyn_start:0000000000000000 _sdram_dyn_start
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3923   .bss.ObjectKvpRoot:0000000000000000 ObjectKvpRoot
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3992   .bss.adcvalues:0000000000000000 adcvalues
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4035   .bss.hid_key_modifiers:0000000000000000 hid_key_modifiers
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4041   .bss.hid_keys:0000000000000000 hid_keys
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4051   .bss.hid_mouse_y:0000000000000000 hid_mouse_y
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4046   .bss.hid_mouse_x:0000000000000000 hid_mouse_x
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4030   .bss.hid_buttons:0000000000000000 hid_buttons
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4017   .bss.dspLoad200:0000000000000000 dspLoad200
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4064   .bss.patchMeta:0000000000000000 patchMeta
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4084   .bss.rbuf2:0000000000000000 rbuf2
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4078   .bss.rbuf:0000000000000000 rbuf
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4011   .bss.buf2:0000000000000000 buf2
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4005   .bss.buf:0000000000000000 buf
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3920   .bss.ObjectKvpRoot:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3926   .bss._ZL14sdram_heap_end:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3930   .bss._ZL14sdram_heap_end:0000000000000000 _ZL14sdram_heap_end
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3933   .bss._ZL14sdram_heap_ptr:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3937   .bss._ZL14sdram_heap_ptr:0000000000000000 _ZL14sdram_heap_ptr
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3940   .bss._ZL16sdram_last_alloc:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3944   .bss._ZL16sdram_last_alloc:0000000000000000 _ZL16sdram_last_alloc
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3947   .bss._ZL2hw:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3951   .bss._ZL2hw:0000000000000000 _ZL2hw
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3954   .bss._ZL9midi_uart:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3960   .bss.__ctor_array_start:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3966   .bss.__dtor_array_start:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3972   .bss._pbss_start:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3981   .bss._sdram_dyn_end:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3986   .bss._sdram_dyn_start:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3988   .bss.adcvalues:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:3995   .bss.blept:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4001   .bss.buf:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4008   .bss.buf2:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4014   .bss.dspLoad200:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4020   .bss.expt:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4027   .bss.hid_buttons:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4036   .bss.hid_key_modifiers:0000000000000000 $d
-ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s 			page 155
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1911   .text.MidiGetOutputBufferAvailable:0000000000000000 MidiGetOutputBufferAvailable
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1930   .text.FastLog:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1937   .text.FastLog:0000000000000000 FastLog
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1970   .text.FastLog:0000000000000018 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1975   .text.startup.main:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:1982   .text.startup.main:0000000000000000 main
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:2361   .text.startup.main:0000000000000198 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4090   .bss.sine2t:0000000000000000 sine2t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3998   .bss.blept:0000000000000000 blept
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:2399   .text.startup.main:0000000000000220 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3346   .text.startup.main:0000000000000480 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3383   .text.startup._GLOBAL__sub_I_buf:0000000000000000 $t
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3389   .text.startup._GLOBAL__sub_I_buf:0000000000000000 _GLOBAL__sub_I_buf
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3881   .text.startup._GLOBAL__sub_I_buf:0000000000000080 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3893   .init_array:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4058   .bss.logt:0000000000000000 logt
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4024   .bss.expt:0000000000000000 expt
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4071   .bss.pitcht:0000000000000000 pitcht
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4097   .bss.windowt:0000000000000000 windowt
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3980   .bss._sdram_dyn_end:0000000000000000 _sdram_dyn_end
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3985   .bss._sdram_dyn_start:0000000000000000 _sdram_dyn_start
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3923   .bss.ObjectKvpRoot:0000000000000000 ObjectKvpRoot
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3992   .bss.adcvalues:0000000000000000 adcvalues
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4035   .bss.hid_key_modifiers:0000000000000000 hid_key_modifiers
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4041   .bss.hid_keys:0000000000000000 hid_keys
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4051   .bss.hid_mouse_y:0000000000000000 hid_mouse_y
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4046   .bss.hid_mouse_x:0000000000000000 hid_mouse_x
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4030   .bss.hid_buttons:0000000000000000 hid_buttons
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4017   .bss.dspLoad200:0000000000000000 dspLoad200
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4064   .bss.patchMeta:0000000000000000 patchMeta
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4084   .bss.rbuf2:0000000000000000 rbuf2
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4078   .bss.rbuf:0000000000000000 rbuf
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4011   .bss.buf2:0000000000000000 buf2
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4005   .bss.buf:0000000000000000 buf
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3920   .bss.ObjectKvpRoot:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3926   .bss._ZL14sdram_heap_end:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3930   .bss._ZL14sdram_heap_end:0000000000000000 _ZL14sdram_heap_end
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3933   .bss._ZL14sdram_heap_ptr:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3937   .bss._ZL14sdram_heap_ptr:0000000000000000 _ZL14sdram_heap_ptr
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3940   .bss._ZL16sdram_last_alloc:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3944   .bss._ZL16sdram_last_alloc:0000000000000000 _ZL16sdram_last_alloc
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3947   .bss._ZL2hw:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3951   .bss._ZL2hw:0000000000000000 _ZL2hw
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3954   .bss._ZL9midi_uart:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3960   .bss.__ctor_array_start:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3966   .bss.__dtor_array_start:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3972   .bss._pbss_start:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3981   .bss._sdram_dyn_end:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3986   .bss._sdram_dyn_start:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3988   .bss.adcvalues:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:3995   .bss.blept:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4001   .bss.buf:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4008   .bss.buf2:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4014   .bss.dspLoad200:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4020   .bss.expt:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4027   .bss.hid_buttons:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4036   .bss.hid_key_modifiers:0000000000000000 $d
+ARM GAS  /var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s 			page 155
 
 
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4038   .bss.hid_keys:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4047   .bss.hid_mouse_x:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4052   .bss.hid_mouse_y:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4054   .bss.logt:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4061   .bss.patchMeta:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4067   .bss.pitcht:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4074   .bss.rbuf:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4081   .bss.rbuf2:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4087   .bss.sine2t:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4093   .bss.windowt:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4100   .rodata._ZZ4mainE8adc_pins:0000000000000000 $d
-/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccZDXKjX.s:4104   .rodata._ZZ4mainE8adc_pins:0000000000000000 _ZZ4mainE8adc_pins
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4038   .bss.hid_keys:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4047   .bss.hid_mouse_x:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4052   .bss.hid_mouse_y:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4054   .bss.logt:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4061   .bss.patchMeta:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4067   .bss.pitcht:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4074   .bss.rbuf:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4081   .bss.rbuf2:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4087   .bss.sine2t:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4093   .bss.windowt:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4100   .rodata._ZZ4mainE8adc_pins:0000000000000000 $d
+/var/folders/y2/46dr13592vnb75z1nplr1hs40000gn/T//ccia2gz5.s:4104   .rodata._ZZ4mainE8adc_pins:0000000000000000 _ZZ4mainE8adc_pins
                            .group:0000000000000000 _ZN5daisy9DaisySeedD5Ev
                            .group:0000000000000000 _ZN5daisy11MidiHandlerINS_17MidiUartTransportEED5Ev
 

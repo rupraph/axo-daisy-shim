@@ -42,6 +42,9 @@ OPT = -O3
 # Additional flags to match Axoloti's DSP behavior
 C_DEFS += -ffast-math -ffp-contract=off -fno-math-errno
 
+# Use our patched linker script that maps Axoloti's .sdram section to SDRAM
+LDSCRIPT = STM32H750IB_flash.lds
+
 # Core location, and generic Makefile
 SYSTEM_FILES_DIR = $(LIBDAISY_DIR)/core
 include $(SYSTEM_FILES_DIR)/Makefile
