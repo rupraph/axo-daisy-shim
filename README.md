@@ -1,10 +1,10 @@
-# Axoloti patch to Daisy hardware
+# Bring Axoloti patches to Daisy hardware
 
-This project lets you compile and run Axoloti/Ksoloti patches on Daisy Seed hardware. So you can enjoy the intuitive patcher from Axoloti, and run on the more powerfull and modern Daisy Hardware.  
-This started as an exploratory side project that turned out to be potentially viable. It is therefore a work in progress, and you are welcome to contribute to.
-It has been tested working with a few factory patches and a daisyseed v1.2, without further guarantees.
+This project lets you compile and run Axoloti/Ksoloti patches on Daisy Seed hardware. So you can enjoy the intuitive patcher from Axoloti, and run on the more powerful and modern Daisy Hardware.  
+This started as an exploratory side project that turned out to be potentially functional. It is therefore a work in progress, and you are welcome to contribute to it.
+It has been tested working with a few factory patches and a Daisy Seed v1.2, without any further guarantees. 
 
-This shim layer takes an Axoloti/Ksoloti/Akso-generated `xpatch.cpp` file as input.
+This shim layer takes an Axoloti/Ksoloti generated `xpatch.cpp` file as input.
 
 ## What You Need
 
