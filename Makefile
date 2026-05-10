@@ -20,6 +20,18 @@ LIBDAISY_DIR ?= ../libDaisy
 # FatFS Unicode support (needed when patches use file I/O objects)
 C_SOURCES += $(LIBDAISY_DIR)/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c
 
+# CMSIS-DSP functions used by axoloti_filters.h (arm_sin_q31, arm_cos_q31)
+CMSIS_DSP_DIR = $(LIBDAISY_DIR)/Drivers/CMSIS-DSP
+C_SOURCES += $(CMSIS_DSP_DIR)/Source/FastMathFunctions/arm_sin_q31.c
+C_SOURCES += $(CMSIS_DSP_DIR)/Source/FastMathFunctions/arm_cos_q31.c
+C_SOURCES += $(CMSIS_DSP_DIR)/Source/CommonTables/arm_common_tables.c
+# Biquad filter functions used by ksoloti filter objects (filter/lp, filter/hp, filter/biquad, etc.)
+C_SOURCES += $(CMSIS_DSP_DIR)/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c
+C_SOURCES += $(CMSIS_DSP_DIR)/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c
+C_SOURCES += $(CMSIS_DSP_DIR)/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c
+C_SOURCES += $(CMSIS_DSP_DIR)/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c
+C_INCLUDES += -I$(CMSIS_DSP_DIR)/Include -I$(CMSIS_DSP_DIR)/PrivateInclude
+
 # Additional include paths for Axoloti shim headers
 C_INCLUDES += -Isrc
 
