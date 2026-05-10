@@ -1,4 +1,4 @@
-# daisy-axoloti-shim
+# Axoloti patch to Daisy hardware
 
 This project lets you compile and run Axoloti/Ksoloti patches on Daisy Seed hardware. So you can enjoy the intuitive patcher from Axoloti, and run on the more powerfull and modern Daisy Hardware.  
 This started as an exploratory side project that turned out to be potentially viable. It is therefore a work in progress, and you are welcome to contribute to.
