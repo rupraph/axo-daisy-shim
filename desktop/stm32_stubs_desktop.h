@@ -7,10 +7,10 @@
 #ifndef __STM32_STUBS_DESKTOP_H
 #define __STM32_STUBS_DESKTOP_H
 
-#include <stdint.h>
-#include <stddef.h>
-#include <string.h>
 #include <math.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <string.h>
 
 /* CMSIS-style inline qualifier */
 #ifndef __STATIC_INLINE
@@ -25,7 +25,7 @@ typedef struct {
 } RNG_TypeDef;
 
 /* RNG status bits */
-#define RNG_SR_DRDY  0x00000001U
+#define RNG_SR_DRDY 0x00000001U
 #define RNG_CR_RNGEN 0x00000004U
 
 /* Dummy RNG instance — never actually ready, so rand_s32 uses LFSR */
@@ -36,31 +36,33 @@ static RNG_TypeDef _rng_dummy = {0, 0, 0};
 #define __HAL_RCC_RNG_CLK_ENABLE() ((void)0)
 
 /* GPIO stubs for patches that reference ChibiOS PAL */
-typedef struct { uint32_t dummy; } GPIO_TypeDef;
-#define GPIOA ((GPIO_TypeDef*)0)
-#define GPIOB ((GPIO_TypeDef*)0)
-#define GPIOC ((GPIO_TypeDef*)0)
-#define GPIOD ((GPIO_TypeDef*)0)
-#define GPIOE ((GPIO_TypeDef*)0)
+typedef struct {
+  uint32_t dummy;
+} GPIO_TypeDef;
+#define GPIOA ((GPIO_TypeDef *)0)
+#define GPIOB ((GPIO_TypeDef *)0)
+#define GPIOC ((GPIO_TypeDef *)0)
+#define GPIOD ((GPIO_TypeDef *)0)
+#define GPIOE ((GPIO_TypeDef *)0)
 
-#define GPIO_PIN_SET   1
+#define GPIO_PIN_SET 1
 #define GPIO_PIN_RESET 0
 
 #define HAL_GPIO_WritePin(port, pin, val) ((void)0)
-#define HAL_GPIO_ReadPin(port, pin)       (0)
-#define HAL_GPIO_TogglePin(port, pin)     ((void)0)
+#define HAL_GPIO_ReadPin(port, pin) (0)
+#define HAL_GPIO_TogglePin(port, pin) ((void)0)
 
 /* ChibiOS PAL stubs */
-#define palSetPad(port, pin)       ((void)0)
-#define palClearPad(port, pin)     ((void)0)
-#define palReadPad(port, pin)      (0)
-#define palTogglePad(port, pin)    ((void)0)
+#define palSetPad(port, pin) ((void)0)
+#define palClearPad(port, pin) ((void)0)
+#define palReadPad(port, pin) (0)
+#define palTogglePad(port, pin) ((void)0)
 #define palSetPadMode(port, pin, mode) ((void)0)
 
 #define PAL_MODE_OUTPUT_PUSHPULL 0
-#define PAL_MODE_INPUT           1
-#define PAL_MODE_INPUT_PULLUP    2
-#define PAL_MODE_INPUT_PULLDOWN  3
+#define PAL_MODE_INPUT 1
+#define PAL_MODE_INPUT_PULLUP 2
+#define PAL_MODE_INPUT_PULLDOWN 3
 
 /* Section attributes — no-op on desktop */
 #define __attribute_section(x)
@@ -97,24 +99,53 @@ typedef unsigned long DWORD;
 typedef char TCHAR;
 typedef DWORD FSIZE_t;
 typedef enum { FR_OK = 0 } FRESULT;
-typedef struct { BYTE dummy; } FIL;
-typedef struct { BYTE dummy; } DIR_;
-typedef struct { BYTE dummy; } FILINFO;
-#define FA_READ     0x01
-#define FA_WRITE    0x02
+typedef struct {
+  BYTE dummy;
+} FIL;
+typedef struct {
+  BYTE dummy;
+} DIR_;
+typedef struct {
+  BYTE dummy;
+} FILINFO;
+#define FA_READ 0x01
+#define FA_WRITE 0x02
 #define FA_CREATE_ALWAYS 0x08
-static inline FRESULT f_open(FIL* fp, const TCHAR* path, BYTE mode) {
-  (void)fp; (void)path; (void)mode; return FR_OK;
+static inline FRESULT f_open(FIL *fp, const TCHAR *path, BYTE mode) {
+  (void)fp;
+  (void)path;
+  (void)mode;
+  return FR_OK;
 }
-static inline FRESULT f_close(FIL* fp) { (void)fp; return FR_OK; }
-static inline FRESULT f_read(FIL* fp, void* buff, UINT btr, UINT* br) {
-  (void)fp; (void)buff; (void)btr; if(br) *br=0; return FR_OK;
+static inline FRESULT f_close(FIL *fp) {
+  (void)fp;
+  return FR_OK;
 }
-static inline FRESULT f_write(FIL* fp, const void* buff, UINT btw, UINT* bw) {
-  (void)fp; (void)buff; (void)btw; if(bw) *bw=0; return FR_OK;
+static inline FRESULT f_read(FIL *fp, void *buff, UINT btr, UINT *br) {
+  (void)fp;
+  (void)buff;
+  (void)btr;
+  if (br)
+    *br = 0;
+  return FR_OK;
 }
-static inline FRESULT f_lseek(FIL* fp, FSIZE_t ofs) { (void)fp; (void)ofs; return FR_OK; }
-static inline FSIZE_t f_size(FIL* fp) { (void)fp; return 0; }
+static inline FRESULT f_write(FIL *fp, const void *buff, UINT btw, UINT *bw) {
+  (void)fp;
+  (void)buff;
+  (void)btw;
+  if (bw)
+    *bw = 0;
+  return FR_OK;
+}
+static inline FRESULT f_lseek(FIL *fp, FSIZE_t ofs) {
+  (void)fp;
+  (void)ofs;
+  return FR_OK;
+}
+static inline FSIZE_t f_size(FIL *fp) {
+  (void)fp;
+  return 0;
+}
 #endif /* _FATFS */
 
 #endif /* __STM32_STUBS_DESKTOP_H */

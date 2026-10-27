@@ -138,7 +138,10 @@ build/main.o: src/main.cpp \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/support_functions.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/quaternion_math_functions.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/window_functions.h \
- src/axoloti_oscs.h src/midi.h src/axoloti_memory.h \
+ src/axoloti_oscs.h src/midi.h src/axoloti_memory.h src/fatfs_stubs.h \
+ ../libDaisy/Middlewares/Third_Party/FatFs/src/ff.h \
+ ../libDaisy/Middlewares/Third_Party/FatFs/src/integer.h \
+ ../libDaisy/src/sys/ffconf.h ../libDaisy/src/util/bsp_sd_diskio.h \
  src/parameter_functions.h src/parameters.h src/patch.h src/ui_stubs.h \
  src/arm_intrinsics.hpp src/axoloti_compat.h ../libDaisy/src/daisy_seed.h \
  ../libDaisy/src/daisy.h ../libDaisy/src/daisy_core.h \
@@ -186,9 +189,6 @@ build/main.o: src/main.cpp \
  ../libDaisy/src/util/FixedCapStr.h \
  ../libDaisy/src/ui/FullScreenItemMenu.h \
  ../libDaisy/src/util/CpuLoadMeter.h ../libDaisy/src/util/FileReader.h \
- ../libDaisy/Middlewares/Third_Party/FatFs/src/ff.h \
- ../libDaisy/Middlewares/Third_Party/FatFs/src/integer.h \
- ../libDaisy/src/sys/ffconf.h ../libDaisy/src/util/bsp_sd_diskio.h \
  ../libDaisy/src/util/FileTable.h \
  ../libDaisy/src/util/PersistentStorage.h ../libDaisy/src/per/qspi.h \
  ../libDaisy/src/util/VoctCalibration.h \
@@ -342,6 +342,11 @@ src/axoloti_math.h:
 src/axoloti_oscs.h:
 src/midi.h:
 src/axoloti_memory.h:
+src/fatfs_stubs.h:
+../libDaisy/Middlewares/Third_Party/FatFs/src/ff.h:
+../libDaisy/Middlewares/Third_Party/FatFs/src/integer.h:
+../libDaisy/src/sys/ffconf.h:
+../libDaisy/src/util/bsp_sd_diskio.h:
 src/parameter_functions.h:
 src/parameters.h:
 src/patch.h:
@@ -430,10 +435,6 @@ src/axoloti_compat.h:
 ../libDaisy/src/ui/FullScreenItemMenu.h:
 ../libDaisy/src/util/CpuLoadMeter.h:
 ../libDaisy/src/util/FileReader.h:
-../libDaisy/Middlewares/Third_Party/FatFs/src/ff.h:
-../libDaisy/Middlewares/Third_Party/FatFs/src/integer.h:
-../libDaisy/src/sys/ffconf.h:
-../libDaisy/src/util/bsp_sd_diskio.h:
 ../libDaisy/src/util/FileTable.h:
 ../libDaisy/src/util/PersistentStorage.h:
 ../libDaisy/src/per/qspi.h:

@@ -19,13 +19,13 @@
 /* 3. Existing headers that DON'T contain ARM asm */
 extern "C" {
 #include "axoloti_defines.h"
-#include "parameters.h"
+#include "codec.h"
+#include "midi.h"
 #include "parameter_functions.h"
+#include "parameters.h"
 #include "patch.h"
 #include "patch_wrapper.h"
-#include "midi.h"
 #include "ui_stubs.h"
-#include "codec.h"
 }
 
 /* 4. axoloti.h — includes axoloti_math.h (guarded out), axoloti_filters.h,

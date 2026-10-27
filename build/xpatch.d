@@ -138,7 +138,10 @@ build/xpatch.o: xpatch.cpp \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/support_functions.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/quaternion_math_functions.h \
  ../libDaisy/Drivers/CMSIS-DSP/Include/dsp/window_functions.h \
- src/axoloti_oscs.h src/midi.h src/axoloti_memory.h \
+ src/axoloti_oscs.h src/midi.h src/axoloti_memory.h src/fatfs_stubs.h \
+ ../libDaisy/Middlewares/Third_Party/FatFs/src/ff.h \
+ ../libDaisy/Middlewares/Third_Party/FatFs/src/integer.h \
+ ../libDaisy/src/sys/ffconf.h ../libDaisy/src/util/bsp_sd_diskio.h \
  src/parameter_functions.h src/parameters.h src/patch.h src/ui_stubs.h \
  src/arm_intrinsics.hpp
 ../libDaisy/Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h7xx.h:
@@ -286,6 +289,11 @@ src/axoloti_math.h:
 src/axoloti_oscs.h:
 src/midi.h:
 src/axoloti_memory.h:
+src/fatfs_stubs.h:
+../libDaisy/Middlewares/Third_Party/FatFs/src/ff.h:
+../libDaisy/Middlewares/Third_Party/FatFs/src/integer.h:
+../libDaisy/src/sys/ffconf.h:
+../libDaisy/src/util/bsp_sd_diskio.h:
 src/parameter_functions.h:
 src/parameters.h:
 src/patch.h:
